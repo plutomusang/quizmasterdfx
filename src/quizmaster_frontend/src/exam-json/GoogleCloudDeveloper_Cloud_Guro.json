@@ -1,0 +1,755 @@
+{
+    "exam_questions":[
+    {
+      "source": "https://chat.openai.com/share/83adcb01-4555-47da-97ee-f7be716e9b9a",
+      "topic": "",
+      "question": "An application team in your organization is building a new product that will eventually be deployed to Kubernetes Engine. They are using VS Code as their development environment. What advice could you give them to help improve the productivity of their IDE?",
+      "type": "option",
+      "choices": {
+        "A": "Switch to the built-in Cloud Code editor in the Cloud Shell",
+        "B": "Switch to IntelliJ from VS Code and install Cloud Code",
+        "C": "Install Cloud Code for VS Code",
+        "D": "Install the Gcloud SDK"
+      },
+      "answer": "C",
+      "page": 1,
+      "most_voted": "C"
+    },
+    {
+      "source": "https://chat.openai.com/share/05c00760-638a-4c7d-b81f-8a0745138b9b",
+      "topic": "",
+      "question": "You are designing a system that uses Cloud Pub/Sub and you need to ensure that every subscriber receives a copy of every message sent to a topic. How do you set this up?",
+      "type": "option",
+      "choices": {
+        "A": "Create multiple topics, one for every subscriber, and publish messages to each topic.",
+        "B": "Use the same subscription information for each system.",
+        "C": "Create multiple subscriptions to the same topic, one for every subscriber.",
+        "D": "Designate a primary subscriber and use an alternative method to have that subscriber pass on the messages to other subscribers."
+      },
+      "answer": "C",
+      "page": 2,
+      "most_voted": "C"
+    },
+    {
+      "source": "https://chat.openai.com/share/62446f40-a16b-46ee-ab1c-73a1bb499685",
+      "topic": "",
+      "question": "You are deploying an application to a Compute Engine instance, using a startup script stored in a Cloud Storage bucket. The script should install some packages and start a service. However, when your instance is running, the service does not seem to be responding. What can you do to investigate and what might be the cause of the problem? (Choose 2)",
+      "type": "multiple_choice",
+      "choices": {
+        "A": "The startup script cannot install any packages as it does not run as root.",
+        "B": "The instance service account may not have permission to retrieve the script from the storage bucket.",
+        "C": "Check the serial port log for the instance in the Cloud Console.",
+        "D": "Check the Cloud Monitoring workspace for an alert that identifies the problem."
+      },
+      "answer": ["B", "C"],
+      "page": 3,
+      "most_voted": ["B", "C"]
+    },
+    {
+      "source": "https://chat.openai.com/share/a9bc7e94-90a9-4c25-9d51-822d41275953",
+      "topic": "",
+      "question": "A development team in your organization is deploying their application by manually building Docker images, pushing them to Container Registry, and then creating a new Cloud Run service revision using the GCP console UI. What could you recommend to help them make this process more efficient?",
+      "type": "option",
+      "choices": {
+        "A": "Use Cloud Build to automate building the image and storing it in Container Registry. Continue to manually update the Cloud Run service using the UI.",
+        "B": "Use Cloud Build to automate building the image, storing it in Container Registry, and updating the Cloud Run service.",
+        "C": "Install Jenkins on Compute Engine and use it to automate all steps of the deployment.",
+        "D": "Install Spinnaker on Kubernetes Engine and use it to automate all steps of the deployment."
+      },
+      "answer": "B",
+      "page": 4,
+      "most_voted": "B"
+    },
+    {
+      "source": "https://chat.openai.com/share/554c5014-5f5f-4b71-b1c5-94a9ba658266",
+      "topic": "",
+      "question": "You are writing an application that will query a Google API. If the API is unavailable at the time of the request, what is the best way for your application to handle this?",
+      "type": "option",
+      "choices": {
+        "A": "Continue to attempt the connection for a fixed number of retries and then stop.",
+        "B": "Do not attempt to retry the connection. Instead, report the failure to the user.",
+        "C": "Continue to attempt the connection, but with exponential backoff to gradually increase the gap between attempts.",
+        "D": "Continue to attempt the connection and repeat trying until the connection is successful."
+      },
+      "answer": "C",
+      "page": 5,
+      "most_voted": "C"
+    },
+    {
+      "source": "https://chat.openai.com/share/b58ea73b-8443-4343-9fbc-91bbedeff8ba",
+      "topic": "",
+      "question": "You have created a stateless web application that you will deploy to Compute Engine. You need to ensure that it can autoscale based on demand, and that it is resilient to the loss of a single GCP zone. What is the best way to achieve this?",
+      "type": "option",
+      "choices": {
+        "A": "Create a regional managed instance group.",
+        "B": "Manually create instances in different zones in the same GCP region. Use Cloud Monitoring to watch for zonal outages.",
+        "C": "Create a zonal managed instance group.",
+        "D": "Manually create instances in different regions in GCP. Use Cloud Monitoring to watch for regional outages."
+      },
+      "answer": "A",
+      "page": 6,
+      "most_voted": "A"
+    },
+    {
+      "source": "https://chat.openai.com/share/ee087e40-c3e7-4dd4-9623-c0b8a01ed926",
+      "topic": "",
+      "question": "You are deciding on a deployment strategy for your application. Due to the 99.99% SLA you give your customers, you cannot afford much downtime. Ideally, you need to be able to immediately switch back to a 'last-known-good' version if there is a problem with a new deployment. Which deployment pattern would suit you best?",
+      "type": "option",
+      "choices": {
+        "A": "Blue-Green",
+        "B": "Fingers crossed",
+        "C": "Rolling update",
+        "D": "Canary deployment"
+      },
+      "answer": "A",
+      "page": 7,
+      "most_voted": "A"
+    },
+    {
+      "source": "https://chat.openai.com/share/ae07af2b-e8e0-4c08-bde4-041de34ff225",
+      "topic": "",
+      "question": "Your team has extensive expertise in Kubernetes and has built a solid automation pipeline for deploying Kubernetes objects using Tekton. The team would now like to extend this pipeline to allow them to create new GCP projects and resources as well. What would be the best way to add this functionality, considering the team's skills?",
+      "type": "option",
+      "choices": {
+        "A": "Integrate Deployment Manager into the existing deployment pipeline.",
+        "B": "Use the Config Connector add-on to manage GCP resources as Kubernetes objects.",
+        "C": "Configure Jenkins for infrastructure as code deployments.",
+        "D": "Integrate Terraform into the existing deployment pipeline."
+      },
+      "answer": "B",
+      "page": 8,
+      "most_voted": "B"
+    },
+    {
+      "source": "https://chat.openai.com/share/615d64c9-8c69-4a10-9cde-e182ac3f190c",
+      "topic": "",
+      "question": "You are developing a backend for a mobile game. The game includes a marketplace where players can trade items with each other. The details of each trade are written to application logs. You would like to monitor the average price of some items in the game and also create an alert when you suspect an item has been sold for an artificially inflated price. How can you use Operations Suite to help you achieve this in a quick and easy way?",
+      "type": "option",
+      "choices": {
+        "A": "Create a helper application that reads logs from the default logs bucket and can then generate average price trends, as well as sending an alert if a trade price is too high. Run the application every 24 hours using Cloud Scheduler.",
+        "B": "Configure logs-based metrics to track trade prices in Cloud Monitoring. Create an alerting policy to notify you when a trade price is above a certain threshold.",
+        "C": "Create a custom logs sink in Cloud Pub/Sub for the application logs. Process the logs with Dataflow, outputting them to BigQuery for later analysis and triggering an alert if a trade is above a certain price threshold.",
+        "D": "Refactor the application code so that, if a trade exceeds a specific price, an alert is triggered via the Cloud Monitoring API."
+      },
+      "answer": "B",
+      "page": 9,
+      "most_voted": "B"
+    },
+    {
+        "source": "https://chat.openai.com/share/bc6ec19b-e9ed-4b9b-9c48-e2476e0e08d4",
+        "topic": "",
+        "question": "You are creating a complex design for your GCP project with numerous applications that exist within different trust boundaries. Network traffic must be restricted to specific applications and ports and should not be allowed to leave a specific trust boundary across the network. Which GCP services will help you achieve this? (Choose 3)",
+        "type": "multiple_choice",
+        "choices": {
+          "A": "Network tags",
+          "B": "VPC networks",
+          "C": "Cloud Interconnect",
+          "D": "Firewall rules"
+        },
+        "answer": ["A", "B", "D"],
+        "page": 10,
+        "most_voted": ["A", "B", "D"]
+      },
+      {
+        "source": "https://chat.openai.com/g/g-wy9QVYjt7-question-analyzer/c/c260638c-4418-4dc0-8731-5663750c81e3",
+        "topic": "",
+        "question": "You are deploying an application to Kubernetes Engine that should connect a Cloud SQL instance. Following security best practices, you are also running the Cloud SQL proxy and a custom service account identity specific to this application. Which IAM role should you add to grant access to the Cloud SQL instance via the proxy?",
+        "type": "option",
+        "choices": {
+          "A": "roles/cloudsql.client",
+          "B": "roles/cloudsql.editor",
+          "C": "roles/cloudsql.admin",
+          "D": "roles/cloudsql.viewer"
+        },
+        "answer": "A",
+        "page": 11,
+        "most_voted": "A"
+      },
+      {
+        "source": "https://chat.openai.com/share/f9b49197-e2cc-445e-8635-d48cffbdaa25",
+        "topic": "",
+        "question": "Your team is creating a new web application, which you will package as a container. You expect traffic to be small at first, but it may grow exponentially when your new marketing campaign launches. You need to design frontend and database architecture that will scale fast, but you don't want to spend a lot of money upfront on resources. What would be your best options for compute and database in this scenario? (Choose 2)",
+        "type": "multiple_choice",
+        "choices": {
+          "A": "Cloud Firestore",
+          "B": "Kubernetes Engine",
+          "C": "Cloud Spanner",
+          "D": "Cloud Run"
+        },
+        "answer": ["A", "D"],
+        "page": 12,
+        "most_voted": ["A", "D"]
+      },
+      {
+        "source": "https://chat.openai.com/share/df217c07-f71f-4f71-b749-2467fc49fa86",
+        "topic": "",
+        "question": "You have been asked to create a canary deployment for your application in GKE. You normally run a standard deployment with 10 replica Pods. How should you modify your configuration to do this?",
+        "type": "option",
+        "choices": {
+          "A": "Reduce the primary deployment to 9 Pods and add the labels: app=myapp and env=primary to it. Create a canary deployment of 1 Pod and add the labels: app=myapp and env=canary to it. Make sure the service exposing the workload is just using the selector env=primary.",
+          "B": "Add the labels: app=myapp and env=primary to the primary deployment. Create a canary deployment of 10 Pods and add the labels: app=myapp and env=canary to it. Make sure the service exposing the workload is just using the selector app=myapp.",
+          "C": "Reduce the primary deployment to 9 Pods and add the labels: app=myapp and env=primary to it. Create a canary deployment of 1 Pod and add the labels: app=myapp and env=canary to it. Make sure the service exposing the workload is just using the selector app=myapp.",
+          "D": "Reduce the primary deployment to 9 Pods and add the labels: app=myapp and env=primary to it. Create a canary deployment of 1 Pod and add the labels: app=myapp and env=canary to it. Make sure the service exposing the workload is just using the selector env=canary."
+        },
+        "answer": "C",
+        "page": 13,
+        "most_voted": "C"
+      },
+      {
+        "source": "https://chat.openai.com/share/0d9e9946-723b-4f9a-8e90-5b9c1f293920",
+        "topic": "",
+        "question": "As your development team moves towards cloud-native app design, what methods would you recommend getting software deployed to a Compute Engine VM? (Choose 3)",
+        "type": "multiple_choice",
+        "choices": {
+          "A": "Using a custom machine image to deploy a pre-installed application",
+          "B": "Bootstrapping installation using a startup script",
+          "C": "Using SSH to connect to an instance to install packages",
+          "D": "Using a configuration management tool like Ansible"
+        },
+        "answer": ["A", "B", "D"],
+        "page": 14,
+        "most_voted": ["A", "B", "D"]
+      },
+      {
+        "source": "https://chat.openai.com/share/cf335f01-74a6-4247-b2ef-5b9a1d49e8e2",
+        "topic": "",
+        "question": "You are trying to scale up a deployment in Kubernetes Engine, but your Pods are not being scheduled. You can see an error regarding 'insufficient CPU'. What could be causing this problem? (Choose 2)",
+        "type": "multiple_choice",
+        "choices": {
+          "A": "Pods cannot be scheduled because all of the available CPU of the available nodes has already been consumed.",
+          "B": "There are currently no more instances that can be scheduled by Compute Engine for your cluster.",
+          "C": "The Pod has been scheduled but keeps crashing because it is using too much CPU.",
+          "D": "Pods cannot be scheduled because they are requesting more CPU than is currently available."
+        },
+        "answer": ["A", "D"],
+        "page": 15,
+        "most_voted": ["A", "D"]
+      },
+      {
+        "source": "https://chat.openai.com/share/f6ed7f29-b038-48e3-b169-4628d91e82b2",
+        "topic": "",
+        "question": "You have created a Cloud Function that should only be invoked by calls from a backend application. The backend application runs in Compute Engine with the service account backend@myproject.iam.gserviceaccount.com. How should you configure IAM for the function?",
+        "type": "option",
+        "choices": {
+          "A": "Use the VPC Serverless Connector to make sure the Cloud Function and the backend application run in the same VPC.",
+          "B": "Add the roles/cloudfunctions.invoker Compute Engine IAM role to the special backend@myproject.iam.gserviceaccount.com service account user.",
+          "C": "Re-host the Cloud Function on the same Compute Engine instance as the backend application. This is the only way to guarantee that access is restricted for the function.",
+          "D": "Add the roles/cloudfunctions.invoker IAM role to the function, assigned to the special allUsers user."
+        },
+        "answer": "B",
+        "page": 16,
+        "most_voted": "B"
+      },
+      {
+        "source": "https://chat.openai.com/share/72116ea1-1107-4e17-81c0-05c6eb4b0428",
+        "topic": "",
+        "question": "You wish to direct a small percentage of production traffic to a new version of your application, so that your changes can be tested on a subset of live users. What is the name of this deployment pattern?",
+        "type": "option",
+        "choices": {
+          "A": "Chaos engineering",
+          "B": "Canary deployment",
+          "C": "Blue/green deployments",
+          "D": "Rolling updates"
+        },
+        "answer": "B",
+        "page": 17,
+        "most_voted": "B"
+      },
+      {
+        "source": "https://chat.openai.com/share/65b6fd05-6dea-4786-8139-105134adecfc",
+        "topic": "",
+        "question": "Your team are creating two Cloud Functions: The first function will take images from a Cloud Storage bucket and check them for 'work-safety' using the Cloud Vision API, and the second function will create thumbnails of approved images and store them in a separate bucket. The original images are uploaded as part of an App Engine frontend web app. What is the best way to set up the triggers for this workflow?",
+        "type": "option",
+        "choices": {
+          "A": "Trigger the first function on a new image being written to an 'uploads bucket', and write an approved image into an 'approved' bucket. Trigger the second function on a new image being added to the 'approved' buckets that writes a thumbnail image to a 'thumbnails' bucket.",
+          "B": "Post an image location to a Pub/Sub topic when an image is written to an 'uploads bucket' which triggers the first function, that then writes the approved image into an 'approved' bucket. Post the new image location to a Pub/Sub topic which triggers the second function, that then writes a thumbnail image to a 'thumbnails' bucket.",
+          "C": "Refactor the App Engine app to call the Cloud Functions directly via HTTP.",
+          "D": "Trigger the first function on a new image being written to an 'uploads bucket', and write an approved image into an 'approved' bucket. Post the image location to a Pub/Sub topic, which triggers the second function, that then writes a thumbnail image to a 'thumbnails' bucket."
+        },
+        "answer": "A",
+        "page": 18,
+        "most_voted": "B"
+      },
+      {
+        "source": "https://chat.openai.com/share/e1575aac-1a6d-4f11-a44e-9a2366ca5ea4",
+        "topic": "",
+        "question": "Your CSO is concerned that developers in your organization's application teams may be using insecure container images that may expose vulnerabilities when deployed. What GCP service can you leverage to help stop this happening?",
+        "type": "option",
+        "choices": {
+          "A": "Container Analysis API On-Demand Vulnerability Scanning",
+          "B": "Security Command Center Web Security Scanner",
+          "C": "Security Command Center Anomaly Detection",
+          "D": "Container Analysis API Automatic Vulnerability Scanning"
+        },
+        "answer": "A",
+        "page": 19,
+        "most_voted": "B"
+      },
+      {
+        "source": "https://chat.openai.com/share/ce578717-1ad3-460a-8da3-214c06de4ace",
+        "topic": "",
+        "question": "As part of your business continuity plan, you are required to keep backups for at least 90 days that will only be accessed in a disaster recovery (DR) scenario. Which is the most cost-effective storage class that meets these requirements?",
+        "type": "option",
+        "choices": {
+          "A": "Coldline",
+          "B": "Nearline",
+          "C": "Archive",
+          "D": "Standard"
+        },
+        "answer": "A",
+        "page": 20,
+        "most_voted": "C"
+      },
+      {
+        "source": "https://chat.openai.com/share/52455495-3e9b-45d4-8b0b-d59f83ca420e",
+        "topic": "",
+        "question": "You are containerizing an application to run in Google Kubernetes Engine. The application is old and expects to connect to a MySQL database running on the same 'server'. However, your team has decided to use Cloud SQL for MySQL. How can you deploy the application to use Cloud SQL?",
+        "type": "option",
+        "choices": {
+          "A": "Run a MySQL read replica inside the application container that reads from the Cloud SQL master.",
+          "B": "Configure Cloud SQL with a public IP connection.",
+          "C": "Use the Cloud SQL proxy as a sidecar container.",
+          "D": "Configure Cloud SQL with a private IP connection."
+        },
+        "answer": "C",
+        "page": 21,
+        "most_voted": "C"
+      },
+      {
+        "source": "https://chat.openai.com/share/53585af8-f1f6-49ea-b550-3081da298f7e",
+        "topic": "",
+        "question": "You are running an application in Compute Engine that produces its own custom logs that are written to /var/log/myapp/myapp.log. You would like to import these logs into Cloud Logging so that you can view them in the Operations dashboard. What is the easiest way to do this?",
+        "type": "option",
+        "choices": {
+          "A": "Install the Logging Agent only; no additional fluentd configuration is necessary.",
+          "B": "Install the Logging Agent and add a fluentd configuration that points at your custom log file.",
+          "C": "Use a bash script to copy logs to a Cloud Storage bucket. Import logs from cloud storage into Cloud Logging.",
+          "D": "Refactor the application to send logs directly the Cloud Logging API."
+        },
+        "answer": "B",
+        "page": 22,
+        "most_voted": "B"
+      },
+      {
+        "source": "https://chat.openai.com/share/5c911582-77d4-455d-aeaf-4ba2dc382b46",
+        "topic": "",
+        "question": "You are running a website for a famous photographer in Compute Engine using autoscaling Managed Instance Groups (MIGs) and the Cloud Load Balancer. When your customer takes a photo that goes viral, load to the site increases dramatically and more instances are spun up, as per design. However, this costs more as you are running more instances. What change could you make to reduce costs?",
+        "type": "option",
+        "choices": {
+          "A": "Use a high-memory instance type to better serve images.",
+          "B": "Use a high-CPU instance type to better serve images.",
+          "C": "Enable Cloud CDN.",
+          "D": "Refactor the website to only display low-resolution photographs."
+        },
+        "answer": "C",
+        "page": 23,
+        "most_voted": "C"
+      },
+      {
+        "source": "https://chat.openai.com/share/7188e5a4-cb07-40af-a7c5-3d684e0a21e8",
+        "topic": "",
+        "question": "You are running a backend service in Kubernetes Engine that is required to communicate with the Cloud Vision API. In order for this to work, you must authenticate with the API. What options do you have for setting this up securely? (Choose 2)",
+        "type": "multiple_choice",
+        "choices": {
+          "A": "Create a custom service account for the backend app, use workload identity in GKE, and have the app retrieve a valid JWT token from the metadata server to use as a bearer token in its request to the Cloud Vision API.",
+          "B": "Create a custom service account for the backend app and generate a JSON key. Copy the JSON key into the container image used to deploy the backend app. Use gcloud inside the container to activate the service account using the key.",
+          "C": "Create an API key in the GCP project, Use a Secret object in Kubernetes to assign the key as an environment variable for the backend app to use when making requests to the Cloud Vision API",
+          "D": "Create a custom service account for the backend app and generate a JSON key. Copy the JSON key into the container image used to deploy the backend app. Send the JSON key in the header when making requests to the Cloud Vision API."
+        },
+        "answer": ["A", "C"],
+        "page": 24,
+        "most_voted": ["A", "C"]
+      },
+      {
+        "source": "https://chat.openai.com/share/f4c4d64c-3fce-4d21-ac6f-b70ea8a7934f",
+        "topic": "",
+        "question": "You are creating a new web application for a global audience. You need to choose a database service specifically for storing user sessions. Your users may connect from any location in the world, and transactions should be strongly consistent. As this is a new application, you would like to keep costs down where possible. Which database should you choose?",
+        "type": "option",
+        "choices": {
+          "A": "Cloud Firestore",
+          "B": "BigQuery",
+          "C": "Cloud SQL",
+          "D": "Cloud Spanner"
+        },
+        "answer": "A",
+        "page": 25,
+        "most_voted": "A"
+      },
+      {
+        "source": "https://chat.openai.com/share/b73cea94-b967-40ef-ad49-b16b8d286693",
+        "topic": "",
+        "question": "An application team in your organization runs to start deploying its containerized application to Cloud Run. You are performing a security audit of their build practices and ask them where their source container images come from. Which answers would be satisfactory? (Choose 2)",
+        "type": "multiple_choice",
+        "choices": {
+          "A": "Community-contributed base images from Docker Hub",
+          "B": "Vendor-approved base images from Docker Hub",
+          "C": "Google-managed base images with verified additions",
+          "D": "Google-managed base images"
+        },
+        "answer": ["C", "D"],
+        "page": 26,
+        "most_voted": ["C", "D"]
+      },
+      {
+        "source": "https://chat.openai.com/share/af44ce14-9036-45de-9e77-65b10e29dabf",
+        "topic": "",
+        "question": "An application team in your company is having problems deploying their application to GCP. Their code compiles successfully, but when it is deployed the overall application reports several errors. As a cloud developer, what sort of testing could help the team to diagnose their problem?",
+        "type": "option",
+        "choices": {
+          "A": "Integration testing",
+          "B": "Performance testing",
+          "C": "Load testing",
+          "D": "Unit testing"
+        },
+        "answer": "A",
+        "page": 27,
+        "most_voted": "A"
+      },
+      {
+        "source": "https://chat.openai.com/share/6e9db88d-b168-43e3-a65e-08949728cc50",
+        "diagram": "https://diagrams.helpful.dev/d/d:zt0Q9jvZ",
+        "topic": "",
+        "question": "Your organization is being audited and you have found that you need to ensure that data for your European customers is being stored geographically in Europe. You have isolated all customers to a single Cloud SQL database, but currently all your databases run in central USA regions. What should you do?",
+        "type": "option",
+        "choices": {
+          "A": "Create an external replica of the Cloud SQL instance in a European region. Wait for replication data to catch up with the master server and redirect connections.",
+          "B": "Create a cross-region read replica of the Cloud SQL instance in a European region. Wait for replication data to catch up with the master server, promote the replica to master, and redirect connections.",
+          "C": "Create a new instance of Cloud SQL in a European region. Export data from the existing data to Cloud Storage. Then import the sqldump file. Redirect connections to the new instance.",
+          "D": "Create a new instance of Cloud SQL in a European region. Configure Cloud Dataflow to perform a migration from the old instance to the new one. Redirect connections to the new instance."
+        },
+        "answer": "B",
+        "page": 28,
+        "most_voted": "B"
+      },
+      {
+        "source": "https://chat.openai.com/share/28f647b1-2fe1-474a-9b60-4fe26fd8718f",
+        "topic": "",
+        "question": "Your organization is building a new version of its software specifically for the cloud. There are several teams, each containing 2-3 developers who are responsible for a separate feature of the application. What would be the recommended approach to this application redesign?",
+        "type": "option",
+        "choices": {
+          "A": "Create a microservices architecture. Each team should be responsible for their own microservice and deploy it to Cloud Functions. Each microservice should conform to an API contract to enable communication with other microservices.",
+          "B": "Create a microservices architecture. Each team should be responsible for their own microservice and deploy it to Cloud Functions. Enable communication between microservices using a relational database.",
+          "C": "Create a microservices architecture. Each team should be responsible for their own microservice and deploy it to the infrastructure they feel is appropriate. Each microservice should conform to an API contract to enable communication with other microservices.",
+          "D": "Create a microservices architecture. Each team should be responsible for their own microservice and deploy it to the infrastructure they feel is appropriate. Enable communication between microservices using a relational database."
+        },
+        "answer": "C",
+        "page": 29,
+        "most_voted": "C"
+      },
+      {
+        "source": "https://chat.openai.com/share/eef3a28b-ab50-405b-854b-27ce57fac6eb",
+        "topic": "",
+        "question": "You are advising a software team in your organization on the best way to deploy their application to the cloud. Their application is a stateless web service, which they have packaged as a container. They would like it to run on a fully managed service which includes autoscaling. Which platform would you recommend?",
+        "type": "option",
+        "choices": {
+          "A": "Compute Engine",
+          "B": "Cloud Run",
+          "C": "Kubernetes Engine",
+          "D": "App Engine"
+        },
+        "answer": "B",
+        "page": 30,
+        "most_voted": "B"
+      },
+      {
+        "source": "https://chat.openai.com/share/3371b410-62c5-4ed6-92cb-5fafdee7658e",
+        "topic": "",
+        "question": "You are developing a web app in GCP, and you are at the testing phase. You have configured a Load Balancer service to expose your web app with a public IP address. What else do you need in order to configure an uptime check in Cloud Monitoring? (Choose 2)",
+        "type": "multiple_choice",
+        "choices": {
+          "A": "A Cloud Monitoring workspace",
+          "B": "A valid domain name",
+          "C": "A YAML manifest for the uptime check",
+          "D": "An SSL certificate"
+        },
+        "answer": ["A", "B"],
+        "page": 31,
+        "most_voted": ["A", "B"]
+      },
+      {
+        "source": "https://chat.openai.com/share/d77f91db-1a13-4c94-826e-2ded1f85a651",
+        "topic": "",
+        "question": "You are advising a potential customer on how to migrate their application and database to GCP. They are running a stateless autoscaling web frontend with containers and a MySQL database for time-series data, which is currently at 50 TB in size. You have already advised them to use Cloud Run for their frontend. Which database option should they consider in GCP?",
+        "type": "option",
+        "choices": {
+          "A": "Cloud Spanner",
+          "B": "Cloud Bigtable",
+          "C": "Cloud Datastore",
+          "D": "Cloud SQL"
+        },
+        "answer": "B",
+        "page": 32,
+        "most_voted": "B"
+      },
+      {
+        "source": "https://chat.openai.com/share/c276f776-83d5-44f6-bcac-6d14c0c53ee1",
+        "topic": "",
+        "question": "Some Compute Engine VMs in your GCP project seem to be stopped, but you are not sure why. Where is the first place you should look to investigate what might have happened?",
+        "type": "option",
+        "choices": {
+          "A": "Access Transparency logs",
+          "B": "Multi-cloud logs",
+          "C": "Cloud Audit Logs",
+          "D": "Agent Logs"
+        },
+        "answer": "C",
+        "page": 33,
+        "most_voted": "C"
+      },
+      {
+        "source": "https://chat.openai.com/share/f889b2e5-a981-4339-9740-6c18fedc2c42",
+        "topic": "",
+        "question": "You are designing the infrastructure for a new ecommerce application. It is important that logs from every part of the application are available for your data analytics team to query using standard SQL syntax. The solution you choose must scale as your application grows. What is the best way to set this up?",
+        "type": "option",
+        "choices": {
+          "A": "Use Cloud Logging for your application and configure BigQuery as a sink.",
+          "B": "Configure the application to send logs to Cloud SQL for later SQL analysis.",
+          "C": "Use Cloud Logging for your application and configure Cloud Storage as a sink.",
+          "D": "Use Cloud Logging for your application, configure Cloud Storage as a sink, and use the bucket as a federated data source in BigQuery."
+        },
+        "answer": "A",
+        "page": 34,
+        "most_voted": "D"
+      },
+      {
+        "source": "https://chat.openai.com/share/cc166477-4528-4764-9b85-1883d9061336",
+        "topic": "",
+        "question": "You are running an employee management App Engine application that performs several background actions when a new user is registered: It sends an email registration, it configures a user profile in the database, and it sets up a number of employee duties in the system. Each of these actions takes between 5-60 seconds to complete, and they currently block the application loading, occasionally causing a timeout. A user may then reload the page and accidentally resubmit a registration form, which causes duplication problems. What is the easiest way to refactor this application to remove this problem?",
+        "type": "option",
+        "choices": {
+          "A": "Use Cloud Tasks to manage queues for the background actions. Abstract each of the background actions into separate App Engine tasks, reusing the same application code to implement App Engine task handlers.",
+          "B": "Use Cloud Pub/Sub to manage a queue of background actions in a topic. Abstract each of the background actions into separate Cloud Functions, and set up the functions as push subscribers.",
+          "C": "Use Cloud Tasks to manage queues for the background actions. Abstract each of the background actions into separate Cloud Functions.",
+          "D": "Use Cloud Pub/Sub to manage a queue of background actions in a topic. Run a separate instance of the app in App Engine to act as a push subscriber to the topic to process the actions."
+        },
+        "answer": "A",
+        "page": 35,
+        "most_voted": "A"
+      },
+      {
+        "source": "",
+        "topic": "",
+        "question": "You are trying to start an instance in Compute Engine, but it is failing. The instance was originally built with a Google-provided public image. You suspect this may be because the boot disk is full. Which of the following is the easiest method to fix this problem? (Choose 2)",
+        "type": "multiple_choice",
+        "choices": {
+          "A": "Create a snapshot of the existing boot disk. Use the snapshot to create a new instance, but increase its size.",
+          "B": "Create a new boot disk. Create a snapshot of the existing boot disk and mount it as a secondary disk. Then copy files to the new boot disk.",
+          "C": "Create a snapshot of the existing boot disk. Create a new instance and mount the snapshot as a secondary disk. Then copy files to the new instance.",
+          "D": "Stop the instance, resize the boot disk, and restart it."
+        },
+        "answer": ["A", "D"],
+        "page": 36,
+        "most_voted": ["A", "D"]
+      },
+      {
+        "source": "",
+        "topic": "",
+        "question": "You are running an autoscaling Managed Instance Group (MIG) in Compute Engine. The instances themselves conduct simulations that are fed to it from a scheduling application. This scheduling application has a simple API and also provides service discovery. When instances scale down, the scheduling applications needs to know that they are no longer available to receive simulation jobs. What is the easiest way to configure this?",
+        "type": "option",
+        "choices": {
+          "A": "Disable autoscaling in the MIG. Use Cloud Scheduler to manually scale the group and inform the API when you know demand will be high.",
+          "B": "Provide a local startup script as part of the Instance Template that contacts the scheduling API.",
+          "C": "Provide a local shutdown script as part of the Instance Template that contacts the scheduling API.",
+          "D": "Disable autoscaling in the MIG. Create a Cloud Function which manually scales the group and informs the API, that you can run when you know demand will be high."
+        },
+        "answer": "C",
+        "page": 37,
+        "most_voted": "C"
+      },
+      {
+        "source": "",
+        "topic": "",
+        "question": "Your organization works in a regulated industry where you must be able to guarantee the safety and location of data. You are storing sensitive information in Cloud Storage. Which options will help you ensure that data remains in a specific region and is not moved? (Choose 2)",
+        "type": "multiple_choice",
+        "choices": {
+          "A": "Firewall rules",
+          "B": "VPC service perimeter",
+          "C": "Multi-region storage buckets",
+          "D": "Regional storage buckets"
+        },
+        "answer": ["B", "D"],
+        "page": 38,
+        "most_voted": ["B", "D"]
+      },
+      {
+        "source": "",
+        "topic": "",
+        "question": "You are managing a team of developers who will be deploying apps to Kubernetes Engine. You need to be able to restrict specific users to deploying to a certain namespace only, that is within a GKE cluster. How can you set this up?",
+        "type": "option",
+        "choices": {
+          "A": "Using RBAC, create a Kubernetes Role with the necessary permissions within the appropriate namespace and assign it to the user.",
+          "B": "Assign the IAM role roles/container.developer to the user.",
+          "C": "Using RBAC, create a Kubernetes ClusterRole with the necessary permissions within the appropriate namespace and assign it to the user.",
+          "D": "Assign the IAM role roles/container.viewer to the user."
+        },
+        "answer": "A",
+        "page": 39,
+        "most_voted": "A"
+      },
+      {
+        "source": "https://chat.openai.com/share/1ef5682c-384c-449b-a512-c38ddb232ea0",
+        "topic": "",
+        "question": "Your organization has two separate product teams that develop their own services in isolation. Each team requires a way to develop their application and deploy it to separate development, staging, and production environments. What is the best way to set this up in the GCP hierarchy?",
+        "type": "option",
+        "choices": {
+          "A": "Use a single GCP organization, and create folders for each of the required environments: development, staging, and production. Create projects for each product team in the appropriate folder.",
+          "B": "Use a single GCP organization and create a single folder for product development. Create a project for each of the required environments: development, staging and production.",
+          "C": "Use a separate GCP organization for each product team. Create a folder for each of the required environments: development, staging, and production.",
+          "D": "Use a single GCP organization, and create folders for each of the product teams. Within each folder, create separate projects for development, staging, and production environments."
+        },
+        "answer": "D",
+        "page": 40,
+        "most_voted": "D"
+      },
+      {
+        "source": "",
+        "topic": "",
+        "question": "Your organization has just completed a large deployment to Kubernetes Engine with multiple interconnected microservices. However, after two separate reviews it has been found that you need to add two important operational features: secure communication and observability of latency between microservices. What is the quickest and easiest way to set this up?",
+        "type": "option",
+        "choices": {
+          "A": "Deploy a certificate authority on GKE to provide mTLS for microservice communication. Use Cloud Logging to check logs for latency data.",
+          "B": "Install Istio service mesh.",
+          "C": "Refactor the deployed applications to include instrumenting for Cloud Trace. Deploy a certificate authority on GKE to provide mTLS for microservice communication.",
+          "D": "Refactor the deployed applications to include instrumenting for Cloud Trace."
+        },
+        "answer": "B",
+        "page": 41,
+        "most_voted": "B"
+      },
+      {
+        "source": "",
+        "topic": "",
+        "question": "You are running a managed instance group of application servers that you need to make available to other applications in Compute Engine. The application servers should only be accessed internally via private IPs from other Compute Engine services. What methods of service discovery could you use for this? (Choose 2)",
+        "type": "multiple_choice",
+        "choices": {
+          "A": "Create an internal load balancer with the managed instance group as a backend. Configure an internal DNS name in Cloud DNS for the frontend of the load balancer.",
+          "B": "Nominate a primary application server and store its private IP in project metadata. Have other services query the metadata server to retrieve the primary application server IP.",
+          "C": "Manually add entries to /etc/hosts on other Compute Engine instances that contain the private IPs of the services.",
+          "D": "Write a script that adds entries to /etc/hosts containing the private IPs of the services, and run it on other Compute Engine instances."
+        },
+        "answer": ["A", "B"],
+        "page": 42,
+        "most_voted": ["A", "B"]
+      },
+      {
+        "source": "https://chat.openai.com/share/40f53082-d0ea-4a4f-976d-a42042d279d2",
+        "topic": "",
+        "question": "You want to run a workload in GKE that should have access to a private Cloud Run service. Permission to access the Cloud Run service has been granted to a custom service account. Ideally, you don't want to alter the container running in GKE. Which of the following is the best approach to take?",
+        "type": "option",
+        "choices": {
+          "A": "Get JSON credentials for the service account and store them as a Secret object in Kubernetes. Mount the Secret object in the Pod alongside the container in GKE to access the credentials.",
+          "B": "Create a Kubernetes service account to run the workload in GKE. Use Workload Identity to map the Kubernetes service account to the GCP service account.",
+          "C": "Get JSON credentials for the service account and include them in the container that is deployed to GKE.",
+          "D": "Get JSON credentials for the service account and create an environment variable in the Pod manifest to store them."
+        },
+        "answer": "B",
+        "page": 43,
+        "most_voted": "B"
+      },
+      {
+        "source": "https://chat.openai.com/share/3d983565-b732-43ee-97cc-25d1ed2d3bcf",
+        "topic": "",
+        "question": "You are going to deploy a backend application to Kubernetes Engine that will use GCE Persistent Disks to provide PersistentVolume objects for your workload. However, you are concerned about the storage of standard persistent disks and how it will affect your application. What is the easiest solution for this?",
+        "type": "option",
+        "choices": {
+          "A": "Use larger persistent disks to improve performance.",
+          "B": "Create a new StorageClass that configures the GCE Persistent Disk provisioner to regional persistent disks.",
+          "C": "Create a new StorageClass that uses Cloud Storage.",
+          "D": "Create a new StorageClass that configures the GCE Persistent Disk provisioner to use SSD disks."
+        },
+        "answer": "D",
+        "page": 44,
+        "most_voted": "D"
+      },
+      {
+        "source": "https://chat.openai.com/share/e689298a-8767-4107-a01d-c0321b27e1f6",
+        "topic": "",
+        "question": "You are monitoring an application that handles queues of tasks for an internal system. You have configured a custom logs-based metric to alert you whenever a queue has over 100 uncompleted tasks. Sometimes, however, a queue can have no tasks for a length of time, which usually means some other part of the system has gone wrong. How can you also use Cloud Monitoring to alert you of this situation?",
+        "type": "option",
+        "choices": {
+          "A": "Configure a metric rate (percent) of change condition in Cloud Monitoring.",
+          "B": "Configure a group aggregate threshold condition in Cloud Monitoring.",
+          "C": "Configure a metric absence condition in Cloud Monitoring.",
+          "D": "Configure a process health condition in Cloud Monitoring."
+        },
+        "answer": "C",
+        "page": 45,
+        "most_voted": "C"
+      },
+      {
+        "source": "https://chat.openai.com/share/afa3d246-86f3-478c-8afb-967d497dd7c1",
+        "topic": "",
+        "question": "You are running a deployment in Google Kubernetes Engine that has a known bug that occasionally causes a memory leak. When this happens, the affected Pods will consume all of the available memory of their host node, and the application will become non-responsive. Each container instance should only use between 256Mi and 512Mi of memory. The development team are working on fixing the bug, but in the meantime, what remediation can you put in place to stop this happening?",
+        "type": "option",
+        "choices": {
+          "A": "Update the deployment. Set resources: limits: memory: to 256Mi and resources: requests: memory: to 512Mi.",
+          "B": "Update the deployment. Set resources: limits: memory: to 512Mi.",
+          "C": "Update the deployment. Set resources: limits: memory: to 512Mi and resources: requests: memory: to 256Mi.",
+          "D": "No changes can be made to moderate this behaviour until the bug is fixed."
+        },
+        "answer": "C",
+        "page": 46,
+        "most_voted": "C"
+      },
+      {
+        "source": "https://chat.openai.com/share/1e3aeaa2-7414-40a4-a74e-a5e58174b2cb",
+        "topic": "",
+        "question": "You are running an app in App Engine that is failing occasionally. The app is quite complex, and you believe the failure may be caused by a required variable either not being set at the correct time or set to an incorrect object type. What are the easiest ways to use Operations Suite to debug the code and find the issue? (Choose 2)",
+        "type": "multiple_choice",
+        "choices": {
+          "A": "Refactor the code with a series of try/catch-style blocks to allow for the variable to be returned as any type (or Null).",
+          "B": "Create a log point in Cloud Debugger after the point where the suspect variable assignment occurs. Test the value of the variable and write the output to the log.",
+          "C": "Refactor the code to print a log to STDOUT at the point where the suspect variable assignment occurs. Use filters in Cloud Logging to find your printed log.",
+          "D": "Create a snapshot in Cloud Debugger at the point where the suspect variable assignment occurs. Observe the snapshot when the application is run to see if the variable is set correctly."
+        },
+        "answer": ["B", "D"],
+        "page": 47,
+        "most_voted": ["B", "D"]
+      },
+      {
+        "source": "",
+        "topic": "",
+        "question": "Your company is streaming real-time sensor data into Bigtable. You will be required to run searches of the data based on the 'SensorID' of the sensor and a time window. Bearing in mind that Bigtable sorts its rows lexicographically, what would be a sensible row key design?",
+        "type": "option",
+        "choices": {
+          "A": "SensorID (Apply updates to existing rows for new timestamped events)",
+          "B": "TimeStamp (Apply updates to existing rows for new sensor events)",
+          "C": "TimeStamp#SensorID",
+          "D": "SensorID#TimeStamp"
+        },
+        "answer": "D",
+        "page": 48,
+        "most_voted": "D"
+      },
+      {
+        "source": "https://chat.openai.com/share/248ee341-b3ff-494b-bf8b-a2284175c0e2",
+        "topic": "",
+        "question": "You are managing an application that is deployed to a Managed Instance Group (MIG) of Compute Engine VMs. When the group scales up, new instances in the group run a startup script that updates their packages and installs the required software before they are ready to serve. This means that autoscaling events normally take 10-20 minutes before the group can respond to the new demand in traffic. How could you speed this up?",
+        "type": "option",
+        "choices": {
+          "A": "Create a pipeline that creates a new Compute Engine custom image every week with the latest security updates, plus the latest version of the software. Use the custom image in the MIG.",
+          "B": "Do not apply security patches, only install the application on first boot.",
+          "C": "Create a Compute Engine custom image with the latest security updates. Apply only the application software installation when it first runs.",
+          "D": "Create a Compute Engine custom image using the latest version of the software. Apply only the security updates on the instance when it first runs."
+        },
+        "answer": "A",
+        "page": 49,
+        "most_voted": "A"
+      },
+      {
+        "source": "https://chat.openai.com/share/66d65cbc-581f-49e3-91f7-a909ced3d3c5",
+        "topic": "",
+        "question": "You have updated an existing deployment in Google Kubernetes Engine with a new version of your application, but Pods in the new ReplicaSet are failing to start, reporting an error of ImagePullErr. What could be the cause of this error?",
+        "type": "option",
+        "choices": {
+          "A": "The updated deployment is making a request for more memory than is available in the cluster, so it cannot be scheduled.",
+          "B": "The updated container image keeps crashing and so cannot be used.",
+          "C": "The updated deployment is making a request for more CPU than is available in the cluster, so it cannot be scheduled.",
+          "D": "The updated container image is not available."
+        },
+        "answer": "D",
+        "page": 50,
+        "most_voted": "D"
+      }
+  ]
+}

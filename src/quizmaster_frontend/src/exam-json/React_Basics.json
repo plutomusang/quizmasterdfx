@@ -1,0 +1,440 @@
+{
+    "exam_questions": [
+      {
+        "source": "",
+        "topic": "React Router V6",
+        "question": "In a React application that utilizes React Router v6 for navigation. What content will be displayed when a user navigates to the <color:magenta>/products/1234</color> URL?\n\n<codeblock>import React from 'react';\nimport ReactDOM from 'react-dom';\nimport { BrowserRouter as Router, Route, Routes } from 'react-router-dom';\n\nconst HomePage = () => <div>Welcome to the Home Page</div>;\nconst ProductDetails = () => <div>Product Details Page Content</div>;\nconst AboutPage = () => <div>About Us Page Content</div>;\nconst PageNotFound = () => <div>Oops! The page you requested was not found.</div>;\n\nconst MainApp = () => (\n  <Router>\n    <Routes>\n      <Route path=\"/home\" element={<HomePage />} />\n      <Route path=\"/products/:id\" element={<ProductDetails />} /> \n      <Route path=\"/products\" element={<ProductDetails />} /> \n      <Route path=\"/about\" element={<AboutPage />} />\n      <Route path=\"*\" element={<PageNotFound />} />\n    </Routes>\n  </Router>\n);\n\nReactDOM.render(<MainApp />, document.getElementById('root'));</codeblock>",
+        "type": "option",
+        "choices": {
+          "A": "Welcome to the Home Page",
+          "B": "Product Details Page Content",
+          "C": "About Us Page Content",
+          "D": "Oops! The page you requested was not found."
+        },
+        "keyPoints": [
+          {
+            "title": "Route Matching in React Router V6",
+            "keywords": ["React Router V6", "/products/:id", "HomePage", "ProductDetails ", "AboutPage ", "PageNotFound "],
+            "explanation": "In React Router version 6, the path=\"/products/:id\" defines a route with a dynamic segment, which allows for matching URLs like '/products/1234'. This approach enables the rendering of specific content based on the URL parameter. When navigating to '/products/1234', the route matches and renders the ProductDetails component, showcasing React Router V6's dynamic routing capabilities."
+          },
+          {
+            "title": "Routes replace Switch in React Router V6",
+            "keywords": ["React Router V6", "<Routes>"],
+            "explanation": "React Router V6 introduces a significant shift by substituting the Routes component for the previously used Switch component. This modification enhances the framework's routing mechanism by supporting more complex and dynamic route structures. It makes the nesting of routes more manageable and streamlines the configuration process, allowing for a clearer and more intuitive setup of routes within React applications."
+          },
+          {
+            "title": "No need for \"exact\" path specification",
+            "keywords": ["React Router V6", "exact", "path matching"],
+            "explanation": "The transition to React Router V6 eliminates the necessity for specifying an exact path for route matching. Earlier versions required the exact prop to restrict route matching to paths that were precisely identical to the pathname in the location. Now, React Router V6 assumes exact matching by default for all routes, which simplifies the setup process and makes the behavior of routing more predictable."
+          },
+          {
+            "title": "component vs. element",
+            "keywords": ["React Router V6", "components", " element"],
+            "explanation": "element: Introduced in React Router v6, expects a JSX element."
+          }
+        ],
+        "answer": "B",
+        "page": 35,
+        "most_voted": 0
+      },
+      {
+        "source": "",
+        "topic": "React Router",
+        "question": "In a React application using React Router, you have set up your routes to handle navigation between different components. Here's a small sample code that illustrates this setup:\n\n<codeblock>import React from 'react';\nimport { BrowserRouter as Router, Route, Switch } from 'react-router-dom';\n\nconst Home = () => <div>Home Page Content</div>;\nconst Products = () => <div>Products Page Content</div>;\nconst About = () => <div>About Page Content</div>;\n\nconst App = () => (\n  <Router>\n    <Switch>\n      <Route exact path=\"/home\" component={Home} />\n      <Route path=\"/products\" component={Products} />\n      <Route path=\"/about\" component={About} />\n    </Switch>\n  </Router>\n);\n\nexport default App;</codeblock>\n\nIf a user navigates to the /home/products URL in the application, which component's content will be displayed?",
+        "type": "option",
+        "choices": {
+          "A": "Home Page Content",
+          "B": "Products Page Content",
+          "C": "About Page Content",
+          "D": "No content will be displayed because there is no route match for /home/products"
+        },
+        "keyPoints": [
+          {
+            "title": "Route Matching in React Router",
+            "keywords": ["React Router", "Route Matching", "Switch", "exact", "/home/products"],
+            "explanation": "In React Router, routes are matched based on the order they are defined in the <Switch> component. The 'exact' prop on a <Route> means that the path must be exactly the same as the location's pathname for that route to match and render. Without a route explicitly defined for /home/products and given the use of 'exact' for the /home route, no defined route in the sample code matches /home/products exactly, resulting in no component being displayed."
+          },
+          {
+            "title": "Understanding the 'exact' Prop",
+            "keywords": ["exact", "Route", "React Router", "/home/products"],
+            "explanation": "The 'exact' prop is used in <Route> components to specify that the path must exactly match the current URL for the route to be considered a match. This is important for preventing routes with similar paths from accidentally matching. For instance, without 'exact', a route with path='/home' would match any URL that starts with /home, such as /home/products."
+          },
+          {
+            "title": "The Role of the <Switch> Component",
+            "keywords": ["Switch", "React Router", "Route Matching", "/home/products"],
+            "explanation": "The <Switch> component is used within React Router to exclusively render the first route that matches the current URL path. It iterates over its children <Route> or <Redirect> components and renders the first one that matches the current location. This ensures that no more than one route renders at a time."
+          }
+        ],
+        "answer": "D",
+        "page": 34,
+        "most_voted": 0
+      },
+      {
+        "source": "",
+        "topic": "React Lifecycle Methods",
+        "question": "In React class components, which of the following sets of lifecycle methods are used to handle component creation, updates, and teardown? Choose the correct combination from the options below:",
+        "type": "option",
+        "choices": {
+          "A": "componentStart, componentRefresh, componentEnd",
+          "B": "componentDidMount, shouldComponentUpdate, componentWillReceiveProps, componentWillUnmount",
+          "C": "componentDidMount, componentDidUpdate, componentWillUnmount",
+          "D": "onComponentRender, onComponentUpdate, onComponentDestroy"
+        },
+        "keyPoints": [
+          {
+            "title": "componentDidMount",
+            "keywords": ["React class components"],
+            "explanation": "Used for initialization tasks such as API calls and DOM operations after the component is inserted into the DOM."
+          },
+          {
+            "title": "componentDidUpdate",
+            "keywords": ["React class components"],
+            "explanation": "Called after the component updates, allowing for DOM updates and post-update logic."
+          },
+          {
+            "title": "componentWillUnmount",
+            "keywords": ["React class components"],
+            "explanation": "Used for cleanup activities before the component is removed from the DOM."
+          },
+          {
+            "title": "shouldComponentUpdate",
+            "keywords": ["React class components"],
+            "explanation": "Allows the component to control whether to re-render or not, based on props or state changes, for performance optimization."
+          },
+          {
+            "title": "componentWillReceiveProps",
+            "keywords": ["React class components"],
+            "explanation": "Used to react to prop changes before the component re-renders, but is deprecated in favor of getDerivedStateFromProps in React 16.3 and above."
+          }
+        ],
+        "answer": "C",
+        "page": 4,
+        "most_voted": 0
+      },      
+      {
+        "source": "",
+        "topic": "React Lifecycle Methods",
+        "question": "Which of the following are valid lifecycle methods in React class components and what are their primary uses? Choose the correct combination from the options below:",
+        "type": "option",
+        "choices": {
+          "A": "componentWillMount: Used before the component mounts; componentDidRender: Used after the component's updates are flushed to the DOM; componentWillReceiveProp: Invoked before a mounted component receives new props.",
+          "B": "componentWillMount: Invoked just before mounting occurs; componentDidMount: Used for setup after the component is inserted into the DOM; componentWillUnmount: Called immediately before a component is destroyed.",
+          "C": "componentDidMount: Used for setup after the component is inserted into the DOM; shouldComponentUpdate: Allows you to control whether a re-render should happen; componentDidUpdate: Called after the component's updates are flushed to the DOM; componentWillUnmount: Called immediately before a component is destroyed.",
+          "D": "componentInit: Initializes component state; componentDidMount: Invoked immediately after a component is mounted; componentWillUpdate: Invoked just before rendering when new props or state are being received."
+        },
+        "keyPoints": [
+          {
+            "title": "componentWillMount",
+            "keywords": ["lifecycle methods in React class components"],
+            "explanation": "This lifecycle method was used for operations before the component was mounted to the DOM, but it is deprecated and replaced by more modern practices in React 16.3 and later."
+          },
+          {
+            "title": "componentDidMount",
+            "keywords": ["lifecycle methods in React class components"],
+            "explanation": "Used for operations that need to happen after a component is inserted into the DOM, such as data fetching, adding event listeners, or direct DOM manipulation."
+          },
+          {
+            "title": "componentWillUnmount",
+            "keywords": ["lifecycle methods in React class components"],
+            "explanation": "Invoked immediately before a component is destroyed. Used for cleanup tasks like invalidating timers, cancelling network requests, or cleaning up any subscriptions that were created in componentDidMount."
+          },
+          {
+            "title": "shouldComponentUpdate",
+            "keywords": ["lifecycle methods in React class components"],
+            "explanation": "Allows the component to avoid unnecessary re-renders by returning false if a render is not required as a result of state or props changes."
+          },
+          {
+            "title": "componentDidUpdate",
+            "keywords": ["lifecycle methods in React class components"],
+            "explanation": "Called after the component's updates are flushed to the DOM. It's used for operations that need to happen after an update, such as DOM updates based on the change in state or props."
+          }
+        ],
+        "answer": "C",
+        "page": 4,
+        "most_voted": 0
+      },      
+      {
+        "source": "",
+        "topic": "React Functional Components",
+        "question": "In React functional components, which Hooks are commonly used to replace the class component lifecycle methods and state management features? Choose the correct combination from the options below:",
+        "type": "option",
+        "choices": {
+          "A": "useString, useNumber, useEffect, useClick",
+          "B": "useState, useEffect, useContext, useReducer, useCallback, useMemo, useRef",
+          "C": "componentState, componentEffect, provideContext, reduceState",
+          "D": "stateHook, effectHook, contextHook, reducerHook, callbackHook, memoHook, refHook"
+        },
+        "keyPoints": [
+          {
+            "title": "useState",
+            "keywords": ["React functional components"],
+            "explanation": "Replaces class component state management, allowing functional components to have local state."
+          },
+          {
+            "title": "useEffect",
+            "keywords": ["React functional components"],
+            "explanation": "Replaces lifecycle methods like componentDidMount, componentDidUpdate, and componentWillUnmount for managing side effects."
+          },
+          {
+            "title": "useContext",
+            "keywords": ["React functional components"],
+            "explanation": "Allows consuming context to share values between components without passing props."
+          },
+          {
+            "title": "useReducer",
+            "keywords": ["React functional components"],
+            "explanation": "Offers more controlled state management for complex state logic that involves multiple sub-values."
+          },
+          {
+            "title": "useCallback",
+            "keywords": ["React functional components"],
+            "explanation": "Returns a memoized callback function to prevent unnecessary re-renders."
+          },
+          {
+            "title": "useMemo",
+            "keywords": ["React functional components"],
+            "explanation": "Memoizes a value to prevent expensive recalculations on every render."
+          },
+          {
+            "title": "useRef",
+            "keywords": ["React functional componentss"],
+            "explanation": "Accesses and interacts with DOM elements and persists values across renders without causing re-renders."
+          }
+        ],
+        "answer": "B",
+        "page": 4,
+        "most_voted": 0
+      },      
+      {
+        "source": "https://diagrams.helpful.dev/d/d:4bO0UDqv",
+        "topic": "React and JSX",
+        "question": "Examine the JSX code snippet and identify which statement accurately describes the transpilation process and subsequent steps taken by React to render the UI in the browser: (Choose 4)\n\n<codeblock>const element = <h1>Hello, world</h1>;\nReactDOM.render(element, document.getElementById('root'));</codeblock>",
+        "type": "multiple_choice",
+        "choices": {
+          "A": "The JSX code is transpiled by Babel into React.createElement() calls, which React uses to construct and manage the virtual DOM.",
+          "B": "During transpilation, Babel transforms the JSX into JavaScript, enabling the browser to interpret and render the elements on the page.",
+          "C": "The transpilation process allows JSX to be converted into a format that is readable by the browser, resulting in a performant and optimized DOM update sequence.",
+          "D": "Once the JSX is transpiled and React elements are created, ReactDOM.render() efficiently updates the DOM to match the described elements.",
+          "E": "The JSX is directly interpreted by the browser without any transpilation, and React elements are created and rendered in real-time."
+        },
+        "keyPoints": [
+          {
+            "title": "Transpilation of JSX",
+            "keywords": ["JSX", "Babel", "React.createElement()", "transpilation process"],
+            "explanation": "JSX is a syntax extension for JavaScript that is not understood by browsers. It needs to be transpiled into standard JavaScript, specifically into React.createElement() calls, which allows React to understand and manage components within the virtual DOM."
+          },
+          {
+            "title": "Role of ReactDOM.render()",
+            "keywords": ["ReactDOM.render()", "virtual DOM", "DOM updates"],
+            "explanation": "ReactDOM.render() is a method provided by React DOM to render a React element into the actual DOM. It efficiently updates the DOM to reflect the UI described by the React elements, utilizing the virtual DOM for performance optimizations."
+          },
+          {
+            "title": "The Function of Babel in JSX Transpilation",
+            "keywords": ["Babel", "JSX", "JavaScript", "transpilation"],
+            "explanation": "Babel plays a crucial role in transforming JSX syntax into JavaScript code that browsers can understand and execute, allowing for the rendering of React elements on the web page."
+          }
+        ],
+        "answer": ["A", "B", "C", "D"],
+        "page": 4,
+        "most_voted": 0
+      },
+      {
+        "source": "",
+        "topic": "React",
+        "question": "Reflect on the characteristics of React elements and determine which of the following statements is false, keeping in mind the given example:\n\n<codeblock>const element = <h1>Hello, world</h1>;\nReactDOM.render(element, document.getElementById('root'));</codeblock>",
+        "type": "option",
+        "choices": {
+          "A": "React elements are the smallest building blocks of a React application and describe the structure of the UI.",
+          "B": "Elements in React can be created using JSX, which allows for a syntax similar to HTML to define the UI structure.",
+          "C": "Once created, React elements are mutable and their properties can be changed to update the UI dynamically.",
+          "D": "The ReactDOM.render() function takes a React element and renders it into the DOM at the specified container node.",
+          "E": "React elements, as described by the JSX syntax, ultimately become objects that tell React what to render on the screen."
+        },
+        "keyPoints": [
+          {
+            "title": "Immutability of React Elements",
+            "keywords": ["React elements", "const element = <h1>Hello, world</h1>"],
+            "explanation": "React elements are immutable, meaning once they are created, their properties and children cannot be changed. To update the UI, a new element must be created and passed to ReactDOM.render()."
+          },
+          {
+            "title": "JSX",
+            "keywords": ["JSX", "syntax", "<h1>Hello, world</h1>"],
+            "explanation": "JSX is a syntax extension for JavaScript, used in React to describe the UI's structure with a syntax that resembles HTML. It gets compiled to React.createElement() calls which return React elements."
+          },
+          {
+            "title": "ReactDOM.render()",
+            "keywords": ["ReactDOM.render"],
+            "explanation": "The ReactDOM.render() function is used in React to render an element into the DOM in the specified container node, effectively updating the UI to match the React elements."
+          }
+        ],
+        "answer": "C",
+        "page": 4,
+        "most_voted": 0
+      },      
+      {
+        "source": "",
+        "topic": "",
+        "question": "In the context of ReactJS, evaluate the following statements about its fundamental terms and choose the correct answers: (Choose 4)",
+        "type": "multiple_choice",
+        "choices": {
+          "A": "An Element is a simple object that describes what you want to see on the screen. React elements are immutable.",
+          "B": "A Component is a function or class that accepts inputs and returns a React element that describes a section of the UI.",
+          "C": "Props, short for properties, are the configuration options for components; they are immutable and allow data to be passed from a parent component to a child component.",
+          "D": "State is a built-in React object used to contain data that affects the rendering and behavior of a component, and it can be changed over time to reflect user actions or events.",
+          "E": "State is a built-in React object that is used to contain data or information about the component's server-side operations and can be changed over time."
+        },
+        "keyPoints": [
+          {
+            "title": "Elements",
+            "keywords": ["elements", "immutable", "object", "screen"],
+            "explanation": "React elements are the simplest building blocks of React apps, describing what appears on the screen. They are immutable and cannot be changed once created."
+          },
+          {
+            "title": "Components",
+            "keywords": ["components", "function", "class", "React element", "UI"],
+            "explanation": "Components are the core of React's design philosophy, encapsulating parts of the UI. They can be functions or classes that return React elements to describe a portion of the UI."
+          },
+          {
+            "title": "Props",
+            "keywords": ["props", "properties", "immutable", "data flow"],
+            "explanation": "Props are short for properties and act as the configuration for components. They are immutable, allowing for unidirectional data flow from parent to child components."
+          },
+          {
+            "title": "State",
+            "keywords": ["state", "data", "rendering", "behavior", "user actions"],
+            "explanation": "State is a React component's built-in object used to hold data that influences rendering and behavior. It is mutable, enabling components to respond to user actions and events."
+          },
+          {
+            "title": "Misconception about State",
+            "keywords": ["misconception", "server-side operations"],
+            "explanation": "There is a common misconception that state is related to server-side operations. In React, state specifically refers to client-side component data that can change over time."
+          }
+        ],
+        "answer": ["A", "B", "C", "D"],
+        "page": 3,
+        "most_voted": ""
+      },
+      {
+        "source": "",
+        "topic": "",
+        "question": "ReactJS, a JavaScript library acclaimed for efficiently crafting interactive user interfaces, embraces a component-based architecture. By encapsulating pieces of the UI into self-sustained components, it enables the construction of complex interfaces. With this in mind, identify which of the following statements accurately reflects ReactJS's capabilities:",
+        "type": "multiple_choice",
+        "choices": {
+          "A": "ReactJS is a JavaScript library used for building user interfaces.",
+          "B": "ReactJS operates on the principle of dividing the UI into independent, reusable components.",
+          "C": "ReactJS is a full-fledged framework that includes both front-end and back-end capabilities.",
+          "D": "ReactJS allows for the composition of complex UIs from small and isolated pieces of code known as components."
+        },
+        "keyPoints": [
+          {
+            "title": "Component-based Architecture",
+            "keywords": ["component-based", "architecture", "encapsulation", "UI"],
+            "explanation": "ReactJS utilizes a component-based architecture which allows developers to encapsulate various parts of a user interface into independent, reusable components. This approach facilitates the construction of complex interfaces through the composition of smaller, isolated code blocks."
+          },
+          {
+            "title": "Library vs Framework",
+            "keywords": ["library", "framework", "front-end", "back-end"],
+            "explanation": "ReactJS is specifically a JavaScript library for building user interfaces, primarily on the front end. Unlike a framework, it does not offer full-stack capabilities (i.e., it does not include back-end functionality) but focuses on the view layer."
+          },
+          {
+            "title": "Reusable Components",
+            "keywords": ["reusable", "components", "UI", "development"],
+            "explanation": "One of the core principles of ReactJS is its emphasis on reusable components. This allows developers to create complex UIs by reusing and combining components, leading to more efficient development and easier maintenance."
+          },
+          {
+            "title": "Isolation of Components",
+            "keywords": ["isolation", "components", "code"],
+            "explanation": "ReactJS promotes the isolation of components, meaning that each component is independent and can be developed, tested, and deployed separately. This isolation enhances the scalability and manageability of applications."
+          },
+          {
+            "title": "Interactive UIs",
+            "keywords": ["interactive", "UIs", "user interfaces"],
+            "explanation": "ReactJS is renowned for its ability to create highly interactive user interfaces. By efficiently updating and rendering components, it enables smooth and responsive UIs that enhance user experience."
+          }
+        ],
+        "answer": ["A", "B", "D"],
+        "page": 2,
+        "most_voted": ""
+      },      
+        {
+            "source": "",
+            "topic": "React Component Syntax Comparison",
+            "question": "Based on the syntax differences between function-based and class-based components in React, the method of accessing props, the JSX used to instantiate the Welcome component with a name prop, and the resulting HTML output in the DOM after rendering, which of the following statements accurately reflects the code comparison demonstrated?<codeblock>function Welcome(props) {  return <h1>Hello, {props.name}</h1>;}\n\nconst element = <Welcome name=\"Sara\" />;\nReactDOM.render(  element,  document.getElementById('root'));</codeblock><codeblock>class Welcome extends React.Component {  render() {    return <h1>Hello, {this.props.name}</h1>;  }}\n\nconst element = <Welcome name=\"Sara\" />;\nReactDOM.render(  element,  document.getElementById('root'));</codeblock>",
+            "type": "option",
+            "choices": {
+              "A": "The functional component accesses the name prop with this.props.name, and the class component accesses the name prop with props.name.",
+              "B": "The functional component and class component both use this.props.name to access the name prop within the rendered output.",
+              "C": "The JSX instantiation of the Welcome component is <Welcome>Sara</Welcome> for both the functional and class components.",
+              "D": "The functional component uses props.name within a simple JavaScript function to access the name prop, while the class component uses this.props.name within the render method."
+            },
+            "keyPoints": [
+              {
+                "title": "Prop Access Method",
+                "keywords": ["props.name", "this.props.name", "functional component", "class component"],
+                "explanation": "The functional component directly accesses the prop with 'props.name', while the class component uses 'this.props.name', demonstrating the difference in prop access syntax between the two."
+              },
+              {
+                "title": "Component Declaration",
+                "keywords": ["function-based component", "class-based component"],
+                "explanation": "Function-based components are declared with a simple JavaScript function that accepts props as an argument, whereas class-based components extend React.Component and use a render method."
+              },
+              {
+                "title": "JSX Instantiation",
+                "keywords": ["JSX", "<Welcome name=\"Sara\" />", "ReactDOM.render"],
+                "explanation": "Both component types use JSX to instantiate the Welcome component with a name prop and mount it to the DOM using ReactDOM.render."
+              },
+              {
+                "title": "HTML Output",
+                "keywords": ["<h1>Hello, Sara</h1>", "DOM", "rendering"],
+                "explanation": "Regardless of the component type, the resulting HTML output in the DOM is the same, with the rendered content being '<h1>Hello, Sara</h1>'."
+              },
+              {
+                "title": "Code Comparison",
+                "keywords": ["syntax differences", "prop access", "function vs class"],
+                "explanation": "This question highlights the syntax differences in accessing props and the structural differences between function-based and class-based React components."
+              }
+            ],
+            "answer": "D",
+            "page": 6,
+            "most_voted": "D"
+          },
+          {
+            "source": "",
+            "topic": "React Components and Props",
+            "question": "Consider the following block of React code:<codeblock>function Welcome(props) {\n  return <h1>Hello, {props.name}</h1>;\n}\n\nfunction App() {\n  return (\n    <div>\n      <Welcome name=\"Sara\" />\n      <Welcome name=\"Cahal\" />\n      <Welcome name=\"Edite\" />\n    </div>\n  );\n}\n\nReactDOM.render(\n  <App />, \n  document.getElementById('root')\n);</codeblock>Which of the following statements are correct? (Choose all that apply)",
+            "type": "multiple_choice",
+            "choices": {
+              "A": "The Welcome component can be used multiple times with different properties.",
+              "B": "Components in React must start with a lowercase letter, just like HTML DOM tags.",
+              "C": "props in the Welcome component allows it to receive data from the parent component.",
+              "D": "ReactDOM.render method is used to render components to the webpage."
+            },
+            "keyPoints": [
+              {
+                "title": "Reusable Components",
+                "keywords": ["Welcome(props) {", "<Welcome name=\"Sara\" />", "<Welcome name=\"Cahal\" />", "<Welcome name=\"Edite\" />"],
+                "explanation": "The Welcome component demonstrates that React components can be reused within the same application with different properties, as seen with the names Sara, Cahal, and Edite."
+              },
+              {
+                "title": "Component Naming Convention",
+                "keywords": ["React code", "ReactDOM", "Welcome"],
+                "explanation": "React components should actually start with an uppercase letter to differentiate them from HTML DOM tags, contrary to statement B."
+              },
+              {
+              "title": "Props Mechanism",
+              "keywords": ["props", "Welcome component", "<Welcome name=\"Sara\" />", "<Welcome name=\"Cahal\" />", "<Welcome name=\"Edite\" />"],
+              "explanation": "The use of props in the Welcome component illustrates how components receive data from a parent component, enabling dynamic content."
+              },
+              {
+                "title": "ReactDOM.render Usage",
+                "keywords": ["ReactDOM.render"],
+                "explanation": "The ReactDOM.render method is indeed used to render React components into the DOM."
+              }
+            ],
+            "answer": ["A", "C", "D"],
+            "page": 5,
+            "most_voted": "A, C, D"
+          }          
+          
+    ]
+}

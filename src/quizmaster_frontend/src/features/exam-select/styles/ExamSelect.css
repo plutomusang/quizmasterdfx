@@ -1,0 +1,40 @@
+/* src/styles/ExamSelect.css */
+.dropdown-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .dropdown-content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    max-height: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  }
+  
+  .dropdown-content.open {
+    max-height: 300px; /* Adjust based on content height */
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .dropdown-button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  @media (min-width: 768px) {
+    .dropdown-content {
+      position: static;
+      max-height: none;
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+  

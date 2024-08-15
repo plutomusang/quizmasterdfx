@@ -1,0 +1,8 @@
+/* styles/themes/light-theme.css */
+body.light-theme {
+    --background-color: #ffffff;
+    --text-color: #000000;
+    --link-color: #007bff;
+    --side-menu-background: #f7f7f7;
+  }
+  

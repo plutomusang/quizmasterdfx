@@ -1,0 +1,298 @@
+{
+    "exam_questions": [
+        {
+            "source": "",
+            "topic": "Cloud Computing",
+            "question": "What is the primary benefit of using multiple geographical locations for cloud services?",
+            "type": "option",
+            "choices": {
+              "A": "To increase the physical security of the data centers",
+              "B": "To optimize application performance and reduce latency",
+              "C": "To reduce the cost of cloud services",
+              "D": "To limit the number of users accessing the service at any given time"
+            },
+            "answer": "B",
+            "page": 0,
+            "most_voted": "B"
+          },
+          {
+            "source": "",
+            "topic": "Cloud Computing",
+            "question": "Which of the following best describes the purpose of dividing Google Cloud infrastructure into regions and zones?",
+            "type": "option",
+            "choices": {
+              "A": "To comply with local data storage laws in different countries",
+              "B": "To make the management of cloud resources more complex",
+              "C": "To ensure resource redundancy and improve application reliability",
+              "D": "To restrict the types of services available in certain areas"
+            },
+            "answer": "C",
+            "page": 0,
+            "most_voted": "C"
+          },
+          {
+            "source": "",
+            "topic": "Cloud Computing",
+            "question": "What is the significance of deploying resources in a multi-region setup in Google Cloud?",
+            "type": "option",
+            "choices": {
+              "A": "To facilitate easier collaboration between development teams in different locations",
+              "B": "To enhance data durability and availability by storing data redundantly in geographically separated locations",
+              "C": "To simplify the network architecture and reduce the number of required data centers",
+              "D": "To concentrate data storage in a single location for easier management"
+            },
+            "answer": "B",
+            "page": 0,
+            "most_voted": "B"
+          },
+          {
+            "source": "",
+            "topic": "Cloud Computing",
+            "question": "How does Google Cloud's global infrastructure affect the latency of applications?",
+            "type": "option",
+            "choices": {
+              "A": "It increases latency by adding more hops between the user and the application",
+              "B": "It has no impact on latency; other factors are more significant",
+              "C": "It reduces latency by bringing applications closer to users around the world",
+              "D": "It randomly affects latency depending on the time of day"
+            },
+            "answer": "C",
+            "page": 0,
+            "most_voted": "C"
+          },
+          {
+            "source": "",
+            "topic": "Cloud Computing",
+            "question": "Which two of the following are benefits of Google Cloud's strategy of having multiple service locations across different geographic areas?",
+            "type": "multiple_choice",
+            "choices": {
+              "A": "To diversify the energy sources used by data centers",
+              "B": "To improve the availability and durability of hosted applications and data",
+              "C": "To comply exclusively with international cybersecurity laws",
+              "D": "To reduce the latency experienced by users globally"
+            },
+            "answer": ["B", "D"],
+            "page": 0,
+            "most_voted": ["B", "D"]
+          },
+          {
+            "source": "",
+            "topic": "Cloud Computing",
+            "question": "For optimizing application deployment in Google Cloud, which two practices are recommended based on the infrastructure's division into regions and zones?",
+            "type": "multiple_choice",
+            "choices": {
+              "A": "Deploying applications in a single zone to simplify management",
+              "B": "Using multi-region setups for critical data to enhance durability and availability",
+              "C": "Selecting regions closest to the majority of the application's users to reduce latency",
+              "D": "Consolidating all resources in one region to minimize costs"
+            },
+            "answer": ["B", "C"],
+            "page": 0,
+            "most_voted": ["B", "C"]
+          },
+          {
+            "source": "",
+            "topic": "Cloud Deployment Strategies",
+            "question": "A company is planning to launch a new web application that will serve users across Europe and Asia. The application requires high availability and minimal response time to ensure a good user experience. Considering Google Cloud's infrastructure and services, which of the following deployment strategies should the company employ for its web application?",
+            "type": "option",
+            "choices": {
+              "A": "Deploy the application in a single zone in the North America region to centralize operations.",
+              "B": "Utilize a multi-region setup in Europe and Asia to store data redundantly and reduce latency for users in these continents.",
+              "C": "Host the application exclusively in the South America region to take advantage of lower operational costs.",
+              "D": "Focus on deploying the application in one zone within the Asia region to simplify management."
+            },
+            "answer": "B",
+            "page": 0,
+            "most_voted": "B"
+          },
+          {
+            "source": "",
+            "topic": "Disaster Recovery Planning",
+            "question": "A global e-commerce company is looking to improve its disaster recovery capabilities and ensure its online shopping platform remains available even in the event of a significant data center outage. The platform has a large user base in both the United States and Europe, and it handles sensitive customer data that requires strict compliance with data protection regulations. Based on Google Cloud's infrastructure and capabilities, which of the following approaches should the company take to enhance its disaster recovery plan?",
+            "type": "option",
+            "choices": {
+              "A": "Rely solely on local backups within the company's primary operational region to speed up recovery times.",
+              "B": "Deploy the platform in a single zone within the Europe region for stricter data protection law compliance.",
+              "C": "Use a multi-region deployment strategy across the United States and Europe, ensuring data is replicated and applications can failover between regions.",
+              "D": "Concentrate all resources in the Asia region to leverage potentially lower costs and unique technological advancements."
+            },
+            "answer": "C",
+            "page": 0,
+            "most_voted": "C"
+          },
+          {
+            "source": "",
+            "topic": "Gaming Server Deployment",
+            "question": "A mobile gaming company is experiencing rapid growth, with a significant increase in users from North America, Europe, and Asia. The game features real-time multiplayer functionality, which demands low latency for an optimal gaming experience. Additionally, the company wants to ensure that game data, including player progress and in-game purchases, is reliably backed up and can withstand regional outages. Considering Google Cloud's global infrastructure and the need for high performance and reliability, which of the following strategies should the company adopt for its gaming servers?",
+            "type": "option",
+            "choices": {
+              "A": "Host all game servers in a single region, prioritizing cost savings over performance.",
+              "B": "Deploy game servers in multiple zones within a single region close to the company's headquarters for ease of management.",
+              "C": "Utilize a global load balancing solution with game servers deployed in regions close to North America, Europe, and Asia to minimize latency and enhance player experience.",
+              "D": "Rely on external content delivery networks (CDNs) exclusively to manage game data and player connections, without regional considerations in server deployment."
+            },
+            "answer": "C",
+            "page": 0,
+            "most_voted": "C"
+          },
+          {
+            "source": "",
+            "topic": "",
+            "question": "BigQuery works in a multicloud environment. How do organizations benefit from this feature?",
+            "type": "option",
+            "choices": {
+              "A": "BigQuery lets organizations save costs by limiting the number of cloud providers they use.",
+              "B": "Security is more effective when BigQuery is run in on-premises environments.",
+              "C": "Data teams can eradicate data silos by analyzing data across multiple cloud providers.",
+              "D": "Multicloud support in BigQuery is only intended for use in disaster recovery scenarios."
+            },
+            "answer": "C",
+            "page": 0,
+            "most_voted": ""
+          },
+          {
+            "source": "",
+            "topic": "",
+            "question": "What is Google's big data database service that powers many core Google services, including Google Search, Google Analytics, Google Maps Platform, and Gmail?",
+            "type": "option",
+            "choices": {
+              "A": "Cloud Spanner",
+              "B": "Cloud SQL",
+              "C": "Cloud Storage",
+              "D": "Cloud Bigtable"
+            },
+            "answer": "D",
+            "page": 0,
+            "most_voted": ""
+          },
+          {
+            "source": "",
+            "topic": "",
+            "question": "Which characteristic is true for all Cloud Storage classes?",
+            "type": "option",
+            "choices": {
+              "A": "High latency and low durability",
+              "B": "Accessibility only within one region",
+              "C": "Maximum storage limits",
+              "D": "Geo-redundancy if data is stored in a multi-region or dual-region"
+            },
+            "answer": "D",
+            "page": 0,
+            "most_voted": ""
+          },
+          {
+            "source": "",
+            "topic": "",
+            "question": "Which would be the best SQL-based storage option for a transactional workload that requires global scalability?",
+            "type": "option",
+            "choices": {
+              "A": "Cloud Bigtable",
+              "B": "Cloud Spanner",
+              "C": "Cloud SQL",
+              "D": "Firestore"
+            },
+            "answer": "B",
+            "page": 0,
+            "most_voted": ""
+          },
+          {
+            "source": "",
+            "topic": "",
+            "question": "Which is the best SQL-based storage option for a transactional workload that requires local or regional scalability?",
+            "type": "option",
+            "choices": {
+              "A": "Cloud Spanner",
+              "B": "Cloud SQL",
+              "C": "Cloud Storage",
+              "D": "Cloud Bigtable"
+            },
+            "answer": "B",
+            "page": 0,
+            "most_voted": ""
+          },
+          {
+            "source": "",
+            "topic": "",
+            "question": "Which Google Cloud product can be used to synchronize data across databases, storage systems, and applications?",
+            "type": "option",
+            "choices": {
+              "A": "Pub/Sub",
+              "B": "Dataprep",
+              "C": "Datastream",
+              "D": "Dataproc"
+            },
+            "answer": "C",
+            "page": 0,
+            "most_voted": ""
+          },
+          {
+            "source": "",
+            "topic": "",
+            "question": "What are the two services that BigQuery provides?",
+            "type": "option",
+            "choices": {
+              "A": "Migration and analytics",
+              "B": "Storage and analytics",
+              "C": "Compute and analytics",
+              "D": "Networking and storage"
+            },
+            "answer": "B",
+            "page": 0,
+            "most_voted": ""
+          },
+          {
+            "source": "",
+            "topic": "",
+            "question": "A data analyst for an online retailer must produce a sales report at the end of each quarter. Which Cloud Storage class should the retailer use for data accessed every 90 days?",
+            "type": "option",
+            "choices": {
+              "A": "Standard",
+              "B": "Archive",
+              "C": "Coldline",
+              "D": "Nearline"
+            },
+            "answer": "C",
+            "page": 0,
+            "most_voted": ""
+          },
+          {
+            "source": "",
+            "topic": "",
+            "question": "Which strategy describes when databases are migrated from on-premises and private cloud environments to the same type of database hosted by a public cloud provider?",
+            "type": "option",
+            "choices": {
+              "A": "Managed database migration",
+              "B": "Lift and shift",
+              "C": "Refactoring",
+              "D": "Remain on-premises"
+            },
+            "answer": "B",
+            "page": 0,
+            "most_voted": ""
+          },
+          {
+            "source": "",
+            "topic": "",
+            "question": "Data in the form of video, pictures, and audio recordings is well suited to object storage. Which product is best for storing this kind of data?",
+            "type": "option",
+            "choices": {
+              "A": "Firestore",
+              "B": "Cloud Storage",
+              "C": "Cloud SQL",
+              "D": "BigQuery"
+            },
+            "answer": "B",
+            "page": 0,
+            "most_voted": ""
+          }
+          
+          
+          
+          
+          
+          
+          
+          
+          
+    ]
+}

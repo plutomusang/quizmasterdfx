@@ -1,0 +1,98 @@
+{
+    "landingPageInfoCard": {
+      "title": "Why Choose QuizMaster?",
+      "sections": [
+        {
+          "id": 1,
+          "title": "Marketability",
+          "points": [
+            "Designed for both students and educators, QuizMaster offers an intuitive platform for mastering exams.",
+            "Leverage the power of AI with our unique Creator Mode to generate and customize quizzes instantly.",
+            "Accessible on all devices, making it the go-to tool for exam preparation and delivery, anywhere, anytime."
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Objective",
+          "points": [
+            "Our mission is to empower users with efficient tools for both learning and teaching.",
+            "Bridge the gap between traditional studying methods and modern technology.",
+            "Facilitate a deeper understanding of subjects through personalized and adaptive quizzes."
+          ]
+        },
+        {
+          "id": 3,
+          "title": "User Experience",
+          "points": [
+            "Simple, clean, and responsive design ensures ease of use across all platforms.",
+            "Seamless navigation from landing to login, making it easy for users to start their journey.",
+            "Real-time feedback and progress tracking, providing users with insights into their learning curves."
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Engagement",
+          "points": [
+            "Interactive quizzes with immediate feedback keep users engaged and motivated.",
+            "Creator Mode allows educators to craft unique quizzes, enhancing the learning experience.",
+            "Gamification elements such as rewards and badges to encourage continuous learning."
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Trust & Security",
+          "points": [
+            "Data privacy is our priority; all user information is securely stored and encrypted.",
+            "Transparent policies and terms of service ensure users are always informed.",
+            "Continuous updates to the platform to address user needs and enhance security."
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Scalability",
+          "points": [
+            "Built to handle thousands of users simultaneously, ensuring a smooth experience even during peak times.",
+            "Flexible infrastructure that grows with your needs, from small classroom settings to large educational institutions.",
+            "Easily integrates with existing educational systems, allowing seamless expansion of your learning tools."
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Support & Community",
+          "points": [
+            "24/7 customer support to assist with any issues or questions, ensuring uninterrupted learning.",
+            "A growing community of educators and learners sharing tips, resources, and feedback.",
+            "Regular webinars and tutorials to help users get the most out of QuizMaster."
+          ]
+        },
+        {
+          "id": 8,
+          "title": "AI-Assisted Content: Speed & Efficiency",
+          "points": [
+            "Instantly generate high-quality quizzes tailored to your specific needs with AI.",
+            "Save time by automating content creation, allowing you to focus more on teaching and learning.",
+            "Quickly adapt and customize quizzes based on real-time feedback and performance data."
+          ]
+        },
+        {
+          "id": 9,
+          "title": "AI-Assisted Content: Reliability & Accuracy",
+          "points": [
+            "AI-driven algorithms ensure the accuracy and relevance of quiz content, minimizing errors.",
+            "Continuously updated content libraries provide reliable and up-to-date information.",
+            "AI ensures that quizzes align with curriculum standards and learning objectives."
+          ]
+        },
+        {
+          "id": 10,
+          "title": "AI-Assisted Content: Personalization & Adaptability",
+          "points": [
+            "AI adapts quizzes based on individual performance, providing a personalized learning experience.",
+            "Tailor quizzes to different learning styles and levels with ease using AI recommendations.",
+            "Engage students with quizzes that are dynamically adjusted to their progress and comprehension."
+          ]
+        }
+      ]
+    }
+  }
+  

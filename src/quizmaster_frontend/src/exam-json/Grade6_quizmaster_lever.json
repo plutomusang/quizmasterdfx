@@ -1,0 +1,520 @@
+{
+    "exam_questions": [
+        {
+            "source": "",
+            "topic": "Physics - Mechanics",
+            "question": "What is the term for the fixed point around which a lever rotates?",
+            "type": "option",
+            "choices": {
+              "A": "Effort",
+              "B": "Load",
+              "C": "Fulcrum",
+              "D": "Effort Arm"
+            },
+            "keyPoints": [
+              {
+                "title": "Fulcrum",
+                "keywords": ["fixed point", "lever", "rotate"],
+                "explanation": "The fulcrum is the fixed point around which a lever pivots or rotates. It is the point that supports the lever and allows it to move or apply force."
+              }
+            ],
+            "answer": "C",
+            "page": 1,
+            "most_voted": 0
+          },
+          {
+            "source": "",
+            "topic": "Physics - Mechanics",
+            "question": "Which part of the lever is applied to make the lever move?",
+            "type": "option",
+            "choices": {
+              "A": "Fulcrum",
+              "B": "Load",
+              "C": "Effort",
+              "D": "Load Arm"
+            },
+            "keyPoints": [
+              {
+                "title": "Effort",
+                "keywords": ["lever", "move", "apply"],
+                "explanation": "Effort refers to the force applied to a lever in order to move the load. It is the input force that causes the lever to act and move the load or resistance."
+              }
+            ],
+            "answer": "C",
+            "page": 2,
+            "most_voted": 0
+          },
+          {
+            "source": "",
+            "topic": "Physics - Mechanics",
+            "question": "What do we call the weight or resistance that the lever is used to move?",
+            "type": "option",
+            "choices": {
+              "A": "Effort Arm",
+              "B": "Load",
+              "C": "Fulcrum",
+              "D": "Effort"
+            },
+            "keyPoints": [
+              {
+                "title": "Load",
+                "keywords": ["weight", "resistance", "lever"],
+                "explanation": "The load in the context of a lever refers to the weight or resistance that the lever is used to move or lift. It is the output force that is overcome or moved by the application of effort."
+              }
+            ],
+            "answer": "B",
+            "page": 3,
+            "most_voted": 0
+          },
+          {
+            "source": "",
+            "topic": "Physics - Mechanics",
+            "question": "Identify the section of the lever from the fulcrum to where the effort is applied. (Choose 2)",
+            "type": "multiple_choice",
+            "choices": {
+              "A": "Load Arm",
+              "B": "Effort",
+              "C": "Effort Arm",
+              "D": "Fulcrum"
+            },
+            "keyPoints": [
+              {
+                "title": "Lever Arms",
+                "keywords": ["fulcrum", "effort", "lever"],
+                "explanation": "The sections of the lever include the Load Arm, which extends from the fulcrum to the load, and the Effort Arm, which extends from the fulcrum to where the effort is applied. These arms determine the lever's ability to multiply force."
+              }
+            ],
+            "answer": ["A", "C"],
+            "page": 4,
+            "most_voted": 0
+          },
+          {
+            "source": "",
+            "topic": "Physics - Mechanics",
+            "question": "Select the components that are considered when discussing a lever's mechanical advantage. (Choose 3)",
+            "type": "multiple_choice",
+            "choices": {
+              "A": "Fulcrum",
+              "B": "Load",
+              "C": "Effort",
+              "D": "Load Arm"
+            },
+            "keyPoints": [
+              {
+                "title": "Mechanical Advantage Components",
+                "keywords": ["fulcrum", "load", "effort", "mechanical advantage"],
+                "explanation": "The mechanical advantage of a lever depends on the positions of the fulcrum, the load, and the effort. It is a measure of the force amplification achieved by using a tool, mechanical device, or machine system."
+              }
+            ],
+            "answer": ["A", "B", "C"],
+            "page": 5,
+            "most_voted": 0
+          },
+          {
+            "source": "",
+            "topic": "Physics - Mechanics",
+            "question": "Which class of lever has the fulcrum located between the effort and the load?\n<color:#808080>Examples: Scissors, Seesaw, Pliers</color>\n<color:#808080>R = Resistance, F = Fulcrum, E = Effort</color>",
+            "type": "option",
+            "choices": {
+              "A": "First-Class Lever (RFE or EFR)",
+              "B": "Second-Class Lever (FRE or ERF)",
+              "C": "Third-Class Lever (REF or FER)",
+              "D": "Fourth-Class Lever (not applicable)"
+            },
+            "keyPoints": [
+              {
+                "title": "Fulcrum Between Effort and Load",
+                "keywords": ["fulcrum located between the effort and the load"],
+                "explanation": "First-Class Levers have the fulcrum located between the effort and the load, allowing for both force magnification and direction change of the force applied. Examples include scissors, seesaws, and pliers."
+              }
+            ],
+            "answer": "A",
+            "page": 6,
+            "most_voted": 0
+          },
+          {
+            "source": "",
+            "topic": "Physics - Mechanics",
+            "question": "In which class of lever is the load located between the fulcrum and the effort?\n<color:#808080>Examples: Wheelbarrow, Nutcracker, Door</color>\n<color:#808080>R = Resistance, F = Fulcrum, E = Effort</color>",
+            "type": "option",
+            "choices": {
+              "A": "First-Class Lever (RFE or EFR)",
+              "B": "Second-Class Lever (FRE or ERF)",
+              "C": "Third-Class Lever (REF or FER)",
+              "D": "None of the above"
+            },
+            "keyPoints": [
+              {
+                "title": "Load Between Fulcrum and Effort",
+                "keywords": ["load located between the fulcrum and the effort"],
+                "explanation": "Second-Class Levers feature the load positioned between the fulcrum and the effort, optimizing force magnification. Examples include wheelbarrows, nutcrackers, and doors."
+              }
+            ],
+            "answer": "B",
+            "page": 7,
+            "most_voted": 0
+          },
+          {
+            "source": "",
+            "topic": "Physics - Mechanics",
+            "question": "Which class of lever is characterized by the effort being between the load and the fulcrum?\n<color:#808080>Examples: Fishing rod, Tweezers, Human arm when lifting weights</color>\n<color:#808080>R = Resistance, F = Fulcrum, E = Effort</color>",
+            "type": "option",
+            "choices": {
+              "A": "First-Class Lever (RFE or EFR)",
+              "B": "Second-Class Lever (FRE or ERF)",
+              "C": "Third-Class Lever (REF or FER)",
+              "D": "All of the above"
+            },
+            "keyPoints": [
+              {
+                "title": "Effort Between Load and Fulcrum",
+                "keywords": ["the effort being between the load and the fulcrum"],
+                "explanation": "Third-Class Levers are identified by the effort placed between the load and the fulcrum, often resulting in a speed or distance advantage at the cost of force. Examples include fishing rods, tweezers, and the human arm during a lift."
+              }
+            ],
+            "answer": "C",
+            "page": 8,
+            "most_voted": 0
+          },
+          {
+            "source": "",
+            "topic": "Physics - Mechanics",
+            "question": "For which class of lever is it common to gain a mechanical advantage in terms of force multiplication? (Choose 2)\n<color:#808080>Examples: Crowbar (First-Class), Wheelbarrow (Second-Class)</color>\n<color:#808080>R = Resistance, F = Fulcrum, E = Effort</color>",
+            "type": "multiple_choice",
+            "choices": {
+              "A": "First-Class Lever (RFE or EFR)",
+              "B": "Second-Class Lever (FRE or ERF)",
+              "C": "Third-Class Lever (REF or FER)",
+              "D": "All classes depending on use"
+            },
+            "keyPoints": [
+              {
+                "title": "Mechanical Advantage in Levers",
+                "keywords": ["mechanical advantage in terms of force multiplication"],
+                "explanation": "First-Class and Second-Class Levers are commonly used to gain a mechanical advantage in terms of force multiplication, facilitating tasks like lifting heavy loads with less effort. Examples include using a crowbar and a wheelbarrow."
+              }
+            ],
+            "answer": ["A", "B"],
+            "page": 9,
+            "most_voted": 0
+          },
+          {
+            "source": "",
+            "topic": "Physics - Mechanics",
+            "question": "Identify the lever classification based on the given example: A wheelbarrow is used to lift a heavy load with minimal effort.\n<color:#808080>R = Resistance, F = Fulcrum, E = Effort</color>",
+            "type": "option",
+            "choices": {
+              "A": "First-Class Lever (RFE or EFR)",
+              "B": "Second-Class Lever (FRE or ERF)",
+              "C": "Third-Class Lever (REF or FER)",
+              "D": "Not applicable"
+            },
+            "keyPoints": [
+              {
+                "title": "Wheelbarrow as a Lever",
+                "keywords": ["A wheelbarrow is used to lift a heavy load with minimal effort"],
+                "explanation": "The wheelbarrow is an example of a Second-Class Lever, where the load is between the fulcrum (wheel) and the effort (handles), allowing for effective load lifting with reduced effort."
+              }
+            ],
+            "answer": "B",
+            "page": 10,
+            "most_voted": 0
+          },
+          {
+            "source": "",
+            "topic": "Physics - Mechanics",
+            "question": "Consider a bottle opener:\nFulcrum: The point where the opener rests on the lip of the bottle cap\nResistance: The bottle cap\nEffort: The hand's force pressing down on the opener\nWhich class of lever does it represent?",
+            "type": "option",
+            "choices": {
+              "A": "First-Class Lever",
+              "B": "Second-Class Lever",
+              "C": "Third-Class Lever",
+              "D": "Not applicable"
+            },
+            "keyPoints": [
+              {
+                "title": "Bottle Opener as a Lever",
+                "keywords": ["Consider a bottle opener", "fulcrum", "resistance", "effort", "Second-Class Lever"],
+                "explanation": "A bottle opener acts as a second-class lever where the fulcrum is the point where the opener rests on the lip of the bottle cap, the resistance is the bottle cap itself, and the effort is applied by the hand pressing down. This arrangement allows for efficient leverage to remove the cap."
+              }
+            ],
+            "answer": "B",
+            "page": 11,
+            "most_voted": 0
+          },
+          {
+            "source": "",
+            "topic": "Physics - Mechanics",
+            "question": "For a pair of tongs:\nFulcrum: The pivot point where the two arms are connected\nResistance: The object being grasped\nEffort: The hands squeezing the arms together\nThis tool is an example of which class of lever?",
+            "type": "option",
+            "choices": {
+              "A": "First-Class Lever",
+              "B": "Second-Class Lever",
+              "C": "Third-Class Lever",
+              "D": "Not applicable"
+            },
+            "keyPoints": [
+              {
+                "title": "Pair of Tongs as a Lever",
+                "keywords": ["For a pair of tongs", "fulcrum", "resistance", "effort", "Third-Class Lever"],
+                "explanation": "A pair of tongs represents a third-class lever. The fulcrum is the pivot point where the two arms connect, the resistance is the object being grasped, and the effort comes from the hands squeezing the arms together, allowing for precise manipulation of objects."
+              }
+            ],
+            "answer": "C",
+            "page": 12,
+            "most_voted": 0
+          },
+          {
+            "source": "",
+            "topic": "Physics - Mechanics",
+            "question": "Regarding scissors:\nFulcrum: The point where the two blades are joined\nResistance: The material being cut\nEffort: The hands pushing the handles together\nWhat class of lever do they represent?",
+            "type": "option",
+            "choices": {
+              "A": "First-Class Lever",
+              "B": "Second-Class Lever",
+              "C": "Third-Class Lever",
+              "D": "Not applicable"
+            },
+            "keyPoints": [
+              {
+                "title": "Scissors as a Lever",
+                "keywords": ["Regarding scissors", "fulcrum", "resistance", "effort", "First-Class Lever"],
+                "explanation": "Scissors function as a first-class lever, with the fulcrum being the point where the two blades join, the resistance is the material being cut, and the effort is applied through the hands pushing the handles together, facilitating cutting action."
+              }
+            ],
+            "answer": "A",
+            "page": 13,
+            "most_voted": 0
+          },
+          {
+            "source": "",
+            "topic": "Physics - Mechanics",
+            "question": "When using a clothespin to hang laundry:\nFulcrum: The end where the two levers are joined by a spring\nResistance: The clothes being held\nEffort: The fingers pressing the levers to open the pin\nIt functions as which class of lever?",
+            "type": "option",
+            "choices": {
+              "A": "First-Class Lever",
+              "B": "Second-Class Lever",
+              "C": "Third-Class Lever",
+              "D": "Not applicable"
+            },
+            "keyPoints": [
+              {
+                "title": "Clothespin as a Lever",
+                "keywords": ["When using a clothespin to hang laundry", "fulcrum", "resistance", "effort", "Second-Class Lever"],
+                "explanation": "A clothespin operates as a second-class lever. The fulcrum is at the end where the two levers are joined by a spring, the resistance is the clothes being held, and the effort comes from the fingers pressing to open the pin, effectively securing the clothes."
+              }
+            ],
+            "answer": "B",
+            "page": 14,
+            "most_voted": 0
+          },
+          {
+            "source": "",
+            "topic": "Physics - Mechanics",
+            "question": "Consider a broom used for sweeping floors:\nFulcrum: The hand that holds the top end of the broom (acting as a pivot point when sweeping)\nResistance: The debris being swept\nEffort: The other hand pushing the broom handle\nThis everyday object acts as what class of lever?",
+            "type": "option",
+            "choices": {
+              "A": "First-Class Lever",
+              "B": "Second-Class Lever",
+              "C": "Third-Class Lever",
+              "D": "Not applicable"
+            },
+            "keyPoints": [
+              {
+                "title": "Broom as a Lever",
+                "keywords": ["Consider a broom used for sweeping floors", "fulcrum", "resistance", "effort", "Third-Class Lever"],
+                "explanation": "The broom serves as a third-class lever during sweeping. The fulcrum is the hand holding the top end, acting as a pivot. The resistance is the debris being swept, and the effort is applied by the other hand pushing the handle, facilitating efficient sweeping motion."
+              }
+            ],
+            "answer": "C",
+            "page": 15,
+            "most_voted": 0
+          },
+          {
+            "source": "",
+            "topic": "Physics - Mechanics",
+            "question": "For a spoon, when used to lever something:\nFulcrum: The point where the spoon rests on the edge of a bowl or pot\nResistance: The food being lifted or pressed\nEffort: The hand applying force on the handle\nThis utensil belongs to which class of lever?",
+            "type": "option",
+            "choices": {
+              "A": "First-Class Lever",
+              "B": "Second-Class Lever",
+              "C": "Third-Class Lever",
+              "D": "First-Class or Third-Class Lever"
+            },
+            "keyPoints": [
+              {
+                "title": "Spoon as a Lever",
+                "keywords": ["For a spoon, when used to lever something", "fulcrum", "resistance", "effort", "First-Class", "Third-Class"],
+                "explanation": "A spoon can function as either a first-class or third-class lever, depending on how it's used. When the spoon is used to lever something with the fulcrum at the edge of a container, the class of lever depends on the relative positions of the effort and the load (food being lifted or pressed)."
+              }
+            ],
+            "answer": "D",
+            "page": 16,
+            "most_voted": 0
+          },
+          {
+            "source": "",
+            "topic": "Physics - Mechanics",
+            "question": "Regarding pliers used to grip or bend an object:\nFulcrum: The pivot point where the two halves are joined\nResistance: The object being gripped or bent\nEffort: The hands squeezing the handles together\nThey are an example of which class of lever?",
+            "type": "option",
+            "choices": {
+              "A": "First-Class Lever",
+              "B": "Second-Class Lever",
+              "C": "Third-Class Lever",
+              "D": "Not applicable"
+            },
+            "keyPoints": [
+              {
+                "title": "Pliers as a Lever",
+                "keywords": ["Regarding pliers used to grip or bend an object", "fulcrum", "resistance", "effort", "First-Class Lever"],
+                "explanation": "Pliers operate as a first-class lever, where the fulcrum is the pivot point joining the two halves, the resistance is the object being gripped or bent, and the effort comes from the hands squeezing the handles. This configuration provides precise control and force application for manipulating objects."
+              }
+            ],
+            "answer": "A",
+            "page": 17,
+            "most_voted": 0
+          },
+          {
+            "source": "",
+            "topic": "Physics - Mechanics",
+            "question": "For tweezers designed to pinch or hold small objects:\nFulcrum: The end where the two arms are joined\nResistance: The object being pinched or held\nEffort: The fingers applying force to the ends of the tweezer arms\nThis tool exemplifies which class of lever?",
+            "type": "option",
+            "choices": {
+              "A": "First-Class Lever",
+              "B": "Second-Class Lever",
+              "C": "Third-Class Lever",
+              "D": "Not applicable"
+            },
+            "keyPoints": [
+              {
+                "title": "Tweezers as a Lever",
+                "keywords": ["For tweezers designed to pinch or hold small objects", "fulcrum", "resistance", "effort", "Third-Class Lever"],
+                "explanation": "Tweezers are an example of a third-class lever. The fulcrum is at the end where the two arms are joined, the resistance is the object being pinched or held, and the effort is applied by the fingers at the other end. This setup allows for precise control when manipulating small objects."
+              }
+            ],
+            "answer": "C",
+            "page": 18,
+            "most_voted": 0
+          },
+          {
+            "source": "",
+            "topic": "Physics - Mechanics",
+            "question": "Describe a fulcrum.",
+            "type": "option",
+            "choices": {
+              "A": "A fulcrum is the fixed point around which a lever pivots or rotates, enabling the movement or lifting of a load with an applied effort.",
+              "B": "A fulcrum is the force applied to the lever to move or lift a load.",
+              "C": "A fulcrum is the weight or resistance that the lever aims to move or lift.",
+              "D": "A fulcrum is the section of the lever that moves the most during operation."
+            },
+            "keyPoints": [
+              {
+                "title": "Fulcrum",
+                "keywords": ["fixed point", "lever", "pivots", "rotates", "movement", "lifting", "load", "applied effort"],
+                "explanation": "The fulcrum is the fixed point around which a lever pivots or rotates. It is crucial in enabling the lever to move or lift a load by applying an effort, serving as the point of support or balance."
+              }
+            ],
+            "answer": "A",
+            "page": 19,
+            "most_voted": 0
+          },
+          {
+            "source": "",
+            "topic": "Physics - Mechanics",
+            "question": "Where can you find the resistance in the second-class lever?",
+            "type": "option",
+            "choices": {
+              "A": "In a second-class lever, the resistance (or load) is at the end of the lever opposite the effort.",
+              "B": "In a second-class lever, the resistance (or load) is directly under the fulcrum.",
+              "C": "In a second-class lever, the resistance (or load) is located between the fulcrum and the point of applied effort.",
+              "D": "In a second-class lever, the resistance (or load) is at the point where the lever rests."
+            },
+            "keyPoints": [
+              {
+                "title": "Resistance in Second-Class Lever",
+                "keywords": ["second-class lever", "resistance", "load", "fulcrum", "effort"],
+                "explanation": "In a second-class lever, the resistance or load is uniquely positioned between the fulcrum and the point where the effort is applied. This configuration provides a mechanical advantage, especially in lifting heavy loads with less effort."
+              }
+            ],
+            "answer": "C",
+            "page": 20,
+            "most_voted": 0
+          },
+          {
+            "source": "",
+            "topic": "Physics - Mechanics",
+            "question": "Differentiate first, second, and third-class levers.",
+            "type": "option",
+            "choices": {
+              "A": "They differ by the material from which they are made.",
+              "B": "They differ by the length of the lever arm.",
+              "C": "First-class levers have the fulcrum between the effort and the load, second-class levers have the load between the fulcrum and the effort, and third-class levers have the effort between the fulcrum and the load.",
+              "D": "They differ by the amount of force they can apply."
+            },
+            "keyPoints": [
+              {
+                "title": "Classifying Levers",
+                "keywords": ["first-class lever", "second-class lever", "third-class lever", "fulcrum", "effort", "load"],
+                "explanation": "Levers are differentiated by the position of the fulcrum, load, and effort. First-class levers have the fulcrum between the load and effort, providing balance or mechanical advantage. Second-class levers, with the load between the fulcrum and effort, often provide a mechanical advantage. Third-class levers have the effort between the fulcrum and load, often increasing speed or range of motion rather than force."
+              }
+            ],
+            "answer": "C",
+            "page": 21,
+            "most_voted": 0
+          },
+          {
+            "source": "",
+            "topic": "Physics - Mechanics",
+            "question": "What are the kinds of levers? How do levers differ?",
+            "type": "option",
+            "choices": {
+              "A": "The kinds of levers are differentiated by their color and design.",
+              "B": "The kinds of levers are differentiated by their usage in different industries.",
+              "C": "The kinds of levers are first-class, second-class, and third-class, and they differ in the arrangement of the fulcrum, effort, and load, affecting their mechanical advantage and how they are used in practical applications.",
+              "D": "The kinds of levers are differentiated by the weight they can lift."
+            },
+            "keyPoints": [
+              {
+                "title": "Kinds of Levers and Their Differences",
+                "keywords": ["first-class lever", "second-class lever", "third-class lever", "fulcrum", "effort", "load", "mechanical advantage"],
+                "explanation": "Levers are classified into three kinds based on the arrangement of the fulcrum, load, and effort. This classification affects their mechanical advantage and practical applications. First-class levers balance force and distance, second-class levers emphasize force multiplication, and third-class levers enhance speed or range of movement."
+              }
+            ],
+            "answer": "C",
+            "page": 22,
+            "most_voted": 0
+          },
+          {
+            "source": "",
+            "topic": "Physics - Simple Machines",
+            "question": "A lever is a simple machine consisting of a rigid bar that pivots around a fixed point, known as the fulcrum. It uses an input force (effort) applied at one point to overcome a resistance (load) at another point. Levers can amplify the applied force, making it easier to move a larger load with less effort. They can also change the direction of the applied force and are classified into three types based on the relative positions of the fulcrum, effort, and load. Which characteristics that best defines a lever?",
+            "type": "option",
+            "choices": {
+              "A": "A mechanism that amplifies sound",
+              "B": "A device that increases the speed of an object without changing the direction of the force",
+              "C": "A simple machine that can amplify force, change the direction of force, and is classified based on the positions of fulcrum, effort, and load",
+              "D": "A complex system that requires electric energy to operate"
+            },
+            "keyPoints": [
+              {
+                "title": "Amplification of Force",
+                "keywords": ["amplify", "force", "load", "effort"],
+                "explanation": "Levers amplify the input force (effort), making it easier to move a larger load with less effort."
+              },
+              {
+                "title": "Change in Force Direction",
+                "keywords": ["change", "direction", "force"],
+                "explanation": "Levers can change the direction of the applied force, providing more versatility in their application."
+              },
+              {
+                "title": "Classification Based on Fulcrum, Effort, and Load",
+                "keywords": ["classification", "fulcrum", "effort", "load"],
+                "explanation": "Levers are classified into three types depending on the relative positions of the fulcrum, effort, and load."
+              }
+            ],
+            "answer": "C",
+            "page": 23,
+            "most_voted": 0
+          }
+    ]
+}

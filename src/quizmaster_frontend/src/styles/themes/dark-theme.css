@@ -1,0 +1,8 @@
+/* styles/themes/dark-theme.css */
+body.dark-theme {
+    --background-color: #282c34;
+    --text-color: white;
+    --link-color: #61dafb;
+    --side-menu-background: #2b2b2b;
+  }
+  

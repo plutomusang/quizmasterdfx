@@ -1,0 +1,30 @@
+{
+    "footer": {
+      "companyInfo": {
+        "aboutUs": "QuizMaster is your go-to platform for mastering exams with AI-assisted tools. We are committed to enhancing the learning experience for students and educators alike.",
+        "contactInfo": {
+          "email": "support@quizmaster.com",
+          "phone": "+1-800-123-4567",
+          "address": "123 Learning Lane, Education City, Country"
+        },
+        "socialMediaLinks": {
+          "facebook": "https://www.facebook.com/QuizMaster",
+          "twitter": "https://www.twitter.com/QuizMaster",
+          "linkedin": "https://www.linkedin.com/company/QuizMaster"
+        }
+      },
+      "navigationLinks": {
+        "quickLinks": [
+          { "name": "Home", "url": "/" },
+          { "name": "About", "url": "/about" },
+          { "name": "Services", "url": "/services" },
+          { "name": "Contact", "url": "/contact" }
+        ]
+      },
+      "legalInfo": {
+        "termsOfService": "/terms-of-service",
+        "privacyPolicy": "/privacy-policy"
+      }
+    }
+  }
+  

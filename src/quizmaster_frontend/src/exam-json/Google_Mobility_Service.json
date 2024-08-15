@@ -1,0 +1,154 @@
+{
+    "exam_questions":[
+    {
+      "source": "",
+      "topic": "",
+      "question": "This library is an extension of NavSDK and it reports vehicle location and routing info to Fleet Engine.",
+      "type": "option",
+      "choices": {
+        "A": "Consumer SDK",
+        "B": "NavSDK Plus",
+        "C": "Driver SDK",
+        "D": "Token Factory"
+      },
+      "answer": "C",
+      "page": 0,
+      "most_voted": ""
+    },
+    {
+      "source": "",
+      "topic": "",
+      "question": "This API includes the process of calculating the path along the road network complete with ETA in a performance optimized manner.",
+      "type": "option",
+      "choices": {
+        "A": "Directions API",
+        "B": "Autocomplete API",
+        "C": "Routes Preferred API",
+        "D": "Cloud Fleet Routing"
+      },
+      "answer": "C",
+      "page": 0,
+      "most_voted": ""
+    },
+    {
+      "source": "",
+      "topic": "",
+      "question": "This defines the components and attributes of each use case scenario such as driver status, location information, task status, etc.",
+      "type": "option",
+      "choices": {
+        "A": "Fleet Engine",
+        "B": "Data Model",
+        "C": "Customer Backend",
+        "D": "gRPC bindings"
+      },
+      "answer": "B",
+      "page": 0,
+      "most_voted": ""
+    },
+    {
+      "source": "",
+      "topic": "",
+      "question": "A task will be created inside Fleet Engine by invoking this API when using Driver SDK.",
+      "type": "option",
+      "choices": {
+        "A": "CreateDeliveryTaskRequest.builder",
+        "B": "setVehicleStops.builder",
+        "C": "NavigationVehicleReporter.enrouteToNextStop",
+        "D": "NavigationVehicleReporter.arrivedAtStop"
+      },
+      "answer": "A",
+      "page": 0,
+      "most_voted": ""
+    },
+    {
+      "source": "",
+      "topic": "",
+      "question": "This library is built on top of the Maps SDK and it powers the journey sharing experience.",
+      "type": "option",
+      "choices": {
+        "A": "Consumer SDK",
+        "B": "Maps SDK Plus",
+        "C": "Driver SDK",
+        "D": "Match-making service"
+      },
+      "answer": "A",
+      "page": 0,
+      "most_voted": ""
+    },
+    {
+      "source": "",
+      "topic": "",
+      "question": "What are the 2 core uses of Google Mobility services?",
+      "type": "multiple_choice",
+      "choices": {
+        "A": "ODRD",
+        "B": "LMFS",
+        "C": "Scheduled",
+        "D": "On-Demand"
+      },
+      "answer": ["C", "D"],
+      "page": 0,
+      "most_voted": ""
+    },
+    {
+        "source": "",
+        "topic": "",
+        "question": "This packaged pricing structure will activate better end-to-end mobility experience with efficient routing and improved navigations.",
+        "type": "option",
+        "choices": {
+          "A": "Pay-As-You-Go",
+          "B": "Mobility Activate",
+          "C": "Mobility Optimize",
+          "D": "Mobility Accelerate"
+        },
+        "answer": "B",
+        "page": 0,
+        "most_voted": ""
+      },
+      {
+        "source": "",
+        "topic": "",
+        "question": "In scheduled use case, this library enables the capability to track fleet performance.",
+        "type": "option",
+        "choices": {
+          "A": "Fleet Engine",
+          "B": "Fleet Tracking Javascript Library",
+          "C": "Consumer SDK for Javascript",
+          "D": "Shipment Tracking Javascript Library"
+        },
+        "answer": "B",
+        "page": 0,
+        "most_voted": ""
+      },
+      {
+        "source": "",
+        "topic": "",
+        "question": "This API accepts a user-specified address and finds the best known location for it.",
+        "type": "option",
+        "choices": {
+          "A": "Geocoding API",
+          "B": "Location Selection API",
+          "C": "Place Autocomplete",
+          "D": "Address Validation API"
+        },
+        "answer": "D",
+        "page": 0,
+        "most_voted": ""
+      },
+      {
+        "source": "",
+        "topic": "",
+        "question": "How to trigger a billing transaction?",
+        "type": "option",
+        "choices": {
+          "A": "via Cloud Logging",
+          "B": "via Pub/Sub",
+          "C": "via Deliveries API",
+          "D": "implement customer backend"
+        },
+        "answer": "C",
+        "page": 0,
+        "most_voted": ""
+      }
+  ]
+}

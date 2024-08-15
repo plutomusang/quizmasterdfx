@@ -1,0 +1,627 @@
+{
+    "exam_questions": [
+      {
+        "source": "",
+        "topic": "Physics - Simple Machines",
+        "question": "An inclined plane is a flat surface that is higher on one end, which can be used to lift or lower objects with less effort. Does this definition truly define what an inclined plane is?",
+        "type": "option",
+        "choices": {
+          "A": "True, because it describes a ramp which is a simple machine.",
+          "B": "False, because an inclined plane is always round like a wheel.",
+          "C": "True, because it specifically says it's a flat surface.",
+          "D": "False, because an inclined plane uses more effort, not less."
+        },
+        "keyPoints": [
+          {
+            "title": "Definition of an Inclined Plane",
+            "keywords": ["inclined plane", "ramp", "simple machine", "less effort"],
+            "explanation": "Imagine you need to move a heavy box into a truck. A flat surface that slants up, like a ramp, can help you do this without picking the box straight up. The ramp goes higher on one end, and when you push the box up this slant, you use less energy than lifting it straight off the ground. So, the statement is true: an inclined plane, like a ramp, is a special kind of simple tool that makes moving things easier."
+          }
+        ],
+        "answer": "A",
+        "page": 1,
+        "most_voted": 0
+      },
+      {
+        "source": "",
+        "topic": "Physics - Simple Machines",
+        "question": "Why does a ramp make it easier to lift a heavy box onto a truck?",
+        "type": "option",
+        "choices": {
+          "A": "It makes the box lighter.",
+          "B": "It allows you to push the box over a longer distance with less force.",
+          "C": "It makes the truck closer to the ground.",
+          "D": "It makes the box move by itself."
+        },
+        "keyPoints": [
+          {
+            "title": "Efficiency of a Ramp",
+            "keywords": ["ramp", "less force", "longer distance", "heavy lifting"],
+            "explanation": "Imagine you have to lift a heavy backpack all the way up to the top shelf. It's hard to lift it straight up, right? Now, think about climbing up a hill. If the hill is really steep, it's tough to climb. But if the hill goes up gently, it's easier to walk up. That's what a ramp is like. It's like a gentle hill. When you use a ramp to lift something, you don't have to pick it straight up; instead, you can push it up over a longer path. Even though you still have to move the heavy box to the same height, the ramp means you don't have to use as much muscle power at once, making it feel easier."
+          }
+        ],
+        "answer": "B",
+        "page": 2,
+        "most_voted": 0
+      },
+      {
+        "source": "",
+        "topic": "Physics - Simple Machines",
+        "question": "During a science class experiment, students used three different inclined planes to roll a toy car up to a height of 20 cm. The lengths of the inclined planes were 30 cm, 50 cm, and 70 cm. Which inclined plane required the least effort to roll the car up, and why?",
+        "type": "option",
+        "choices": {
+          "A": "The 30 cm inclined plane, because it is the shortest.",
+          "B": "The 50 cm inclined plane, because it is not too short or too long.",
+          "C": "The 70 cm inclined plane, because it is the longest.",
+          "D": "All the planes required the same effort because the car reached the same height."
+        },
+        "keyPoints": [
+          {
+            "title": "Least Effort Inclined Plane",
+            "keywords": ["inclined plane", "least effort", "experiment", "70 cm"],
+            "explanation": "Think of it like walking up a hill. If you have a short and steep hill (like the 30 cm ramp), it's really hard to climb. A long and gentle hill (like the 70 cm ramp) is much easier to walk up. In our experiment, the 70 cm ramp is like a gentle hill, so the toy car doesn't need as much pushing to get to the top. The longer ramp spreads out the effort over more distance, so you don't have to push as hard at any one time. That's why the longest ramp, the 70 cm one, needed the least effort to roll the car up to the same height."
+          }
+        ],
+        "answer": "C",
+        "page": 3,
+        "most_voted": 0
+      },
+      {
+        "source": "",
+        "topic": "Physics - Simple Machines",
+        "question": "What happens when we use an inclined plane to move a toy car up to a certain height?",
+        "type": "option",
+        "choices": {
+          "A": "It takes more force than lifting it straight up.",
+          "B": "It doesn't change the force needed.",
+          "C": "It takes less force than lifting it straight up.",
+          "D": "The car becomes heavier."
+        },
+        "keyPoints": [
+          {
+            "title": "Using an Inclined Plane",
+            "keywords": ["inclined plane", "less force", "toy car"],
+            "explanation": "When we use a ramp (an inclined plane), we can push the toy car up to the top more easily than lifting it straight up. It's like using a long path to gently walk up a hill instead of climbing straight up—it's easier!"
+          }
+        ],
+        "answer": "C",
+        "page": 4,
+        "most_voted": 0
+      },
+      {
+        "source": "",
+        "topic": "Physics - Simple Machines",
+        "question": "If we have three ramps with different lengths (30 cm, 50 cm, and 70 cm) to move the car to the same height, which ramp requires the least amount of pushing?",
+        "type": "option",
+        "choices": {
+          "A": "The 30 cm ramp, because it's the shortest.",
+          "B": "The 50 cm ramp, because it's in the middle.",
+          "C": "The 70 cm ramp, because it's the longest.",
+          "D": "All ramps require the same amount of pushing."
+        },
+        "keyPoints": [
+          {
+            "title": "Ramp Length and Effort",
+            "keywords": ["ramp", "least pushing", "70 cm"],
+            "explanation": "The longest ramp makes the hill less steep, so it's the easiest path to push the car up. It's like choosing a gentle slope over a steep one when you're walking or biking uphill."
+          }
+        ],
+        "answer": "C",
+        "page": 5,
+        "most_voted": 0
+      },
+      {
+        "source": "",
+        "topic": "Physics - Simple Machines",
+        "question": "Why do we need less force to push the toy car up a longer inclined plane?",
+        "type": "option",
+        "choices": {
+          "A": "Because the car gets lighter on longer ramps.",
+          "B": "Because gravity doesn't work on long ramps.",
+          "C": "Because spreading the climb over a longer distance makes it easier.",
+          "D": "Because the ramp pushes the car up for us."
+        },
+        "keyPoints": [
+          {
+            "title": "Easier Climbing on Longer Ramps",
+            "keywords": ["force", "inclined plane", "distance", "ease"],
+            "explanation": "Using a longer ramp is like taking your time to walk up a gentle hill instead of rushing up a steep one. It doesn't make the car lighter or stop gravity, but it does mean you don't have to use as much force at once."
+          }
+        ],
+        "answer": "C",
+        "page": 6,
+        "most_voted": 0
+      },
+      {
+        "source": "",
+        "topic": "Physics - Simple Machines",
+        "question": "What is mechanical advantage, and how does it relate to our ramps?",
+        "type": "option",
+        "choices": {
+          "A": "It's a way to make machines lighter.",
+          "B": "It's the force that machines use to do work for us.",
+          "C": "It's when we use a tool to make work easier by requiring less force.",
+          "D": "It's the noise machines make when they work."
+        },
+        "keyPoints": [
+          {
+            "title": "Mechanical Advantage Explained",
+            "keywords": ["mechanical advantage", "tool", "force", "ramps"],
+            "explanation": "Mechanical advantage is like having a secret helper that makes tough jobs easier. For our ramps, it means we can push the toy car up to the height we want without having to use as much muscle power, especially with the longer ramps."
+          }
+        ],
+        "answer": "C",
+        "page": 7,
+        "most_voted": 0
+      },
+      {
+        "source": "",
+        "topic": "Physics - Simple Machines",
+        "question": "How does an inclined plane help in transporting a load to a higher place?",
+        "type": "option",
+        "choices": {
+          "A": "By making the load lighter so it's easier to carry.",
+          "B": "By increasing the force you need so you become stronger.",
+          "C": "By allowing you to spread the effort over a longer distance, requiring less force at any one moment.",
+          "D": "By magically moving the load up without any effort."
+        },
+        "keyPoints": [
+          {
+            "title": "Inclined Plane Advantage",
+            "keywords": ["inclined plane", "load", "higher place", "less force"],
+            "explanation": "Imagine you have a huge box of toys that you want to put on a shelf. If you try to lift it straight up, it feels super heavy, and you might not be able to do it because it requires a lot of strength all at once. But what if you could push the box up a ramp instead? The ramp is like a sloping road that goes up to the shelf. When you push the box up this ramp, you still move it to the same height, but it doesn't feel as heavy. That's because you're not lifting it straight up; you're moving it up a little bit at a time over a longer distance. This way, you don't have to use all your strength at once, making it feel easier to get your box of toys onto the shelf."
+          }
+        ],
+        "answer": "C",
+        "page": 8,
+        "most_voted": 0
+      },
+      {
+        "source": "",
+        "topic": "Physics - Simple Machines",
+        "question": "From the given experiment, which inclined plane requires the greatest effort force to move a toy car to a higher place, and why?",
+        "type": "option",
+        "choices": {
+          "A": "The 70 cm plane, because it is the longest and therefore needs the most force.",
+          "B": "The 50 cm plane, because it is in the middle, making it neither too easy nor too hard to use.",
+          "C": "The 30 cm plane, because it is the shortest and has the steepest slope, requiring more force.",
+          "D": "All planes require the same effort because they reach the same height."
+        },
+        "keyPoints": [
+          {
+            "title": "Effort Force on Different Lengths of Inclined Planes",
+            "keywords": ["effort force", "inclined plane", "length", "slope"],
+            "explanation": "Imagine you're at the playground. There's a really steep slide and a really long, gentle slide. Which one is harder to climb up? The steep one, right? That's because you have to work harder to move up something steep. In our experiment, the shortest ramp, which is 30 cm long, is like that steep slide. It's not very long, so it goes up quickly, and you need to use a lot of muscle to push the toy car all the way to the top. The longer ramps, like the 70 cm one, are more like the gentle slide, easier to push up because they're not as steep. So, the shortest ramp, or the 30 cm one, needs the most effort to get the car up, just like the steep slide is harder to climb."
+          }
+        ],
+        "answer": "C",
+        "page": 9,
+        "most_voted": 0
+      },
+      {
+        "source": "",
+        "topic": "Physics - Simple Machines",
+        "question": "What is the best conclusion based on the activity of using inclined planes of different lengths to move a toy car to a higher place?",
+        "type": "option",
+        "choices": {
+          "A": "The length of the inclined plane does not affect the effort needed to move the car.",
+          "B": "The shorter the inclined plane, the easier it is to move the car to a higher place.",
+          "C": "The longer the inclined plane, the less effort is needed to move the car to a higher place.",
+          "D": "All inclined planes require the same amount of effort regardless of their length."
+        },
+        "keyPoints": [
+          {
+            "title": "Conclusions on Inclined Plane Lengths",
+            "keywords": ["inclined plane", "effort", "length"],
+            "explanation": "Think about walking your bike up a hill. If you have a short but really steep hill, it's pretty tough and you might even need to stop and catch your breath. Now, imagine a hill that's not so steep but takes longer to walk up. It might take more time, but it's a lot easier and you don't feel as tired, right? That's how the inclined planes work in our experiment. The longer the ramp, like the 70 cm one, the easier it is to push the toy car up because the hill isn't as steep. So, we learn that using a longer ramp makes the job easier because you don't have to push as hard to get the car to the top."
+          }
+        ],
+        "answer": "C",
+        "page": 10,
+        "most_voted": 0
+      },
+      {
+        "source": "",
+        "topic": "Simple Machines",
+        "question": "What is a wedge used for?",
+        "type": "option",
+        "choices": {
+          "A": "To tie things together",
+          "B": "To cut or split objects apart",
+          "C": "To lift heavy objects",
+          "D": "To pull things closer"
+        },
+        "keyPoints": [
+          {
+            "title": "Function of a Wedge",
+            "keywords": ["simple tool", "sharp edge", "cut", "split", "force"],
+            "explanation": "A wedge is a simple tool that has a sharp edge, which makes it great for cutting things like wood or even a piece of paper. Because it’s sharp and thin, it pushes things apart when you hit it with some force."
+          }
+        ],
+        "answer": "B",
+        "page": 11,
+        "most_voted": 0
+      },
+      {
+        "source": "",
+        "topic": "Simple Machines",
+        "question": "What does the 'pitch' of a screw refer to?",
+        "type": "option",
+        "choices": {
+          "A": "The color of the screw",
+          "B": "The length of the screw",
+          "C": "The distance between the threads",
+          "D": "The sharpness of the screw tip"
+        },
+        "keyPoints": [
+          {
+            "title": "Pitch of a Screw",
+            "keywords": ["threads", "spiral staircase", "distance", "hold tighter"],
+            "explanation": "Think of the threads like the steps on a spiral staircase. The pitch is how far apart each step is. If the steps are closer together, you can climb higher with more steps, just like a screw can hold things tighter with more threads close together."
+          }
+        ],
+        "answer": "C",
+        "page": 12,
+        "most_voted": 0
+      },
+      {
+        "source": "",
+        "topic": "Simple Machines",
+        "question": "What does a pulley help you do?",
+        "type": "option",
+        "choices": {
+          "A": "Screw things in",
+          "B": "Cut objects",
+          "C": "Lift heavy objects",
+          "D": "Measure distance"
+        },
+        "keyPoints": [
+          {
+            "title": "Function of a Pulley",
+            "keywords": ["wheel", "rope", "lift", "easier"],
+            "explanation": "A pulley is like a wheel for ropes. When you pull on the rope, the wheel turns, and it makes lifting things up a lot easier because you're using the wheel to help you."
+          }
+        ],
+        "answer": "C",
+        "page": 13,
+        "most_voted": 0
+      },
+      {
+        "source": "",
+        "topic": "Simple Machines",
+        "question": "What is the advantage of using a fixed pulley?",
+        "type": "option",
+        "choices": {
+          "A": "It moves with the object.",
+          "B": "It can lift objects on its own.",
+          "C": "It changes the direction of the force used to lift objects.",
+          "D": "It can cut objects in half."
+        },
+        "keyPoints": [
+          {
+            "title": "Advantage of a Fixed Pulley",
+            "keywords": ["fixed pulley", "force direction", "lifting", "easier"],
+            "explanation": "Imagine raising a flag on a flagpole: You're pulling down on the rope, but the flag goes up. That’s because the fixed pulley lets you pull down to lift something up, which often feels easier than lifting straight up."
+          }
+        ],
+        "answer": "C",
+        "page": 14,
+        "most_voted": 0
+      },
+      {
+        "source": "",
+        "topic": "Simple Machines",
+        "question": "How is a movable pulley different from a fixed pulley?",
+        "type": "option",
+        "choices": {
+          "A": "A movable pulley can change the direction of the force.",
+          "B": "A movable pulley moves with the load and reduces the force needed.",
+          "C": "A movable pulley can cut objects.",
+          "D": "A movable pulley stays in one place."
+        },
+        "keyPoints": [
+          {
+            "title": "Movable vs. Fixed Pulley",
+            "keywords": ["movable pulley", "load", "force reduction", "lifting"],
+            "explanation": "With a movable pulley, the pulley itself goes up with whatever you're lifting. This helps because it feels like you’re lifting half the weight. However, you have to pull the rope twice as far."
+          }
+        ],
+        "answer": "B",
+        "page": 15,
+        "most_voted": 0
+      },
+      {
+        "source": "",
+        "topic": "Simple Machines",
+        "question": "What does a 'Block and Tackle' system combine to lift heavy loads?",
+        "type": "option",
+        "choices": {
+          "A": "Multiple wedges",
+          "B": "Multiple screws",
+          "C": "A fixed and a movable pulley",
+          "D": "A pulley and a lever"
+        },
+        "keyPoints": [
+          {
+            "title": "Block and Tackle System",
+            "keywords": ["pulleys", "fixed", "movable", "heavy lifting", "teamwork"],
+            "explanation": "A Block and Tackle is a tag team of pulleys. You have one pulley that is fixed and doesn’t move, and one that moves with the load. This combo lets you lift really heavy things because each pulley does part of the work, making it easier for you."
+          }
+        ],
+        "answer": "C",
+        "page": 16,
+        "most_voted": 0
+      },
+      {
+        "source": "",
+        "topic": "Simple Machines",
+        "question": "What is the primary mechanical advantage of using a wheel and axle assembly?",
+        "type": "option",
+        "choices": {
+          "A": "It allows for objects to be lifted without any effort.",
+          "B": "It reduces the distance an object must be moved.",
+          "C": "It changes the direction of the applied force.",
+          "D": "It allows a larger force to be exerted on the rim with less effort."
+        },
+        "keyPoints": [
+          {
+            "title": "Mechanical Advantage of Wheel and Axle",
+            "keywords": ["wheel and axle", "moving", "turning", "mechanical advantage", "force", "distance"],
+            "explanation": "The wheel and axle work together to make moving or turning something easier. Think about when you open a door: You push or pull the edge of the door (the wheel), which turns around the hinges (the axle). Even though the doorknob is only a small part of the door, it's easier to open the door by turning the knob than by pushing the door itself. This is because the doorknob is farther from the center, so it travels a longer distance than the center point does when you turn it. This gives you a mechanical advantage because you can apply a smaller force at the doorknob but have a bigger effect on the door. It's like using a longer wrench to loosen a really tight bolt—it just becomes easier!"
+          }
+        ],
+        "answer": "D",
+        "page": 17,
+        "most_voted": 0
+      },
+      {
+        "source": "",
+        "topic": "Simple Machines: Wheel and Axle",
+        "question": "Imagine you've built a model using common items where a pencil represents the central rod, and you've bent a paper clip into a circle and hooked it around the pencil. When you spin the pencil, the paper clip rotates around it. It’s similar to how the hands of a clock turn around its center. Which is the wheel and the axle in the model?",
+        "type": "option",
+        "choices": {
+          "A": "The pencil is the wheel, and the paper clip is the axle.",
+          "B": "The shoebox is the wheel, and the string is the axle.",
+          "C": "The paper clip is the wheel, and the pencil is the axle.",
+          "D": "The string is the wheel, and the shoebox is the axle."
+        },
+        "keyPoints": [
+          {
+            "title": "Wheel and Axle Identification",
+            "keywords": ["model", "pencil", "paper clip", "wheel", "axle", "rotate"],
+            "explanation": "In your model, the axle is the center rod that the wheel turns around. The wheel is the part that moves in a circle. The pencil stays in place and allows the paper clip to turn, which means the pencil is acting as the axle, and the paper clip is the wheel."
+          }
+        ],
+        "answer": "C",
+        "page": 18,
+        "most_voted": 0
+      },
+      {
+        "source": "",
+        "topic": "Simple Machines: Wheel and Axle",
+        "question": "Consider that you've just constructed a simple mechanical device with a wheel and an axle. When you apply force to the axle, the wheel mirrors this movement, rolling across the tabletop. This setup demonstrates the basics of how wheels help move vehicles like bikes or cars. How does the wheel and axle work in the model?",
+        "type": "option",
+        "choices": {
+          "A": "The wheel moves independently of the axle.",
+          "B": "The axle turns, and the wheel stays in place.",
+          "C": "The wheel and axle both turn together to move the cart.",
+          "D": "The wheel and axle do not interact at all."
+        },
+        "keyPoints": [
+          {
+            "title": "Wheel and Axle Functionality",
+            "keywords": ["wheel", "axle", "force", "movement", "together"],
+            "explanation": "In the model, as in real life, the wheel and axle turn together. This teamwork makes it easier to move or steer things. Just like when you use a steering wheel in a car, you're actually turning the axle (steering column), and the car's wheels respond to that motion."
+          }
+        ],
+        "answer": "C",
+        "page": 19,
+        "most_voted": 0
+      },
+      {
+        "source": "",
+        "topic": "Simple Machines: Counterweight System",
+        "question": "Imagine your model includes a small box that serves as a freight elevator. As you turn the pencil to raise the freight, a counterweight attached to the other end helps by moving in the opposite direction. It's similar to how an actual elevator works to smoothly carry people up and down a building. How does the counterweight work when the freight goes up and down?",
+        "type": "option",
+        "choices": {
+          "A": "The counterweight makes it harder to lift the freight.",
+          "B": "The counterweight helps to balance the weight of the freight.",
+          "C": "The counterweight is only for decoration and has no function.",
+          "D": "The counterweight lifts the freight on its own."
+        },
+        "keyPoints": [
+          {
+            "title": "Counterweight Operation",
+            "keywords": ["counterweight", "freight", "balance", "lift", "smooth operation"],
+            "explanation": "The counterweight's job is to offset the weight of the freight, making it easier to lift. It's based on the principle of balance—the same reason why two kids of similar weight can go up and down on a see-saw without too much effort. When the freight goes up, the counterweight goes down, and vice versa, providing a smooth operation."
+          }
+        ],
+        "answer": "B",
+        "page": 20,
+        "most_voted": 0
+      },
+      {
+        "source": "",
+        "topic": "Simple Machines: Identification",
+        "question": "Match the simple machine to its example: Ramp, slope.",
+        "type": "option",
+        "choices": {
+          "A": "Pulley",
+          "B": "Inclined Plane",
+          "C": "Wedge",
+          "D": "Screw",
+          "E": "Wheel and Axle",
+          "F": "Lever"
+        },
+        "keyPoints": [
+          {
+            "title": "Ramp as an Inclined Plane",
+            "keywords": ["ramp", "slope", "inclined plane", "less force", "angle"],
+            "explanation": "A ramp or slope is an example of an inclined plane which is a flat surface set at an angle (other than a right angle) against a horizontal surface. This simple machine makes it easier to move objects upward with less force."
+          }
+        ],
+        "answer": "B",
+        "page": 21,
+        "most_voted": 0
+      },
+      {
+        "source": "",
+        "topic": "Simple Machines: Identification",
+        "question": "Match the simple machine to its example: Axe, blade.",
+        "type": "option",
+        "choices": {
+          "A": "Pulley",
+          "B": "Inclined Plane",
+          "C": "Wedge",
+          "D": "Screw",
+          "E": "Wheel and Axle",
+          "F": "Lever"
+        },
+        "keyPoints": [
+          {
+            "title": "Axe as a Wedge",
+            "keywords": ["axe", "blade", "wedge", "split objects", "pointed edge"],
+            "explanation": "An axe or blade is an example of a wedge. A wedge is a piece of material, such as wood or metal, with a pointed edge that is thicker on one end. It's used to split objects apart or hold doorways open."
+          }
+        ],
+        "answer": "C",
+        "page": 22,
+        "most_voted": 0
+      },
+      {
+        "source": "",
+        "topic": "Simple Machines: Identification",
+        "question": "Match the simple machine to its example: Wheelbarrow, bottle opener.",
+        "type": "option",
+        "choices": {
+          "A": "Pulley",
+          "B": "Inclined Plane",
+          "C": "Wedge",
+          "D": "Screw",
+          "E": "Wheel and Axle",
+          "F": "Lever"
+        },
+        "keyPoints": [
+          {
+            "title": "Wheelbarrow and Bottle Opener as Levers",
+            "keywords": ["wheelbarrow", "bottle opener", "lever", "fulcrum", "pivot"],
+            "explanation": "A wheelbarrow and a bottle opener are examples of levers. A lever is a rigid bar that is free to pivot or rotate on a fixed point called the fulcrum. It's used to move or lift objects."
+          }
+        ],
+        "answer": "F",
+        "page": 23,
+        "most_voted": 0
+      },
+      {
+        "source": "",
+        "topic": "Simple Machines: Identification",
+        "question": "Match the simple machine to its example: Bicycle gears, doorknob.",
+        "type": "option",
+        "choices": {
+          "A": "Pulley",
+          "B": "Inclined Plane",
+          "C": "Wedge",
+          "D": "Screw",
+          "E": "Wheel and Axle",
+          "F": "Lever"
+        },
+        "keyPoints": [
+          {
+            "title": "Bicycle Gears and Doorknob as Wheel and Axle",
+            "keywords": ["bicycle gears", "doorknob", "wheel and axle", "rotational movement"],
+            "explanation": "Bicycle gears and a doorknob are examples of a wheel and axle. This simple machine consists of a larger wheel attached to a smaller axle so that when one turns, the other does as well, which allows for easier movement of an object or easier rotational movement."
+          }
+        ],
+        "answer": "E",
+        "page": 24,
+        "most_voted": 0
+      },
+      {
+        "source": "",
+        "topic": "Simple Machines: Identification",
+        "question": "Match the simple machine to its example: Flagpole.",
+        "type": "option",
+        "choices": {
+          "A": "Pulley",
+          "B": "Inclined Plane",
+          "C": "Wedge",
+          "D": "Screw",
+          "E": "Wheel and Axle",
+          "F": "Lever"
+        },
+        "keyPoints": [
+          {
+            "title": "Flagpole as a Pulley",
+            "keywords": ["flagpole", "pulley", "raise", "lower", "taut cable"],
+            "explanation": "A flagpole typically uses a pulley system to raise and lower the flag. A pulley consists of a wheel on an axle or shaft designed to support the movement of a taut cable or belt and redirect the applied force."
+          }
+        ],
+        "answer": "A",
+        "page": 25,
+        "most_voted": 0
+      },
+      {
+        "source": "",
+        "topic": "Classifying Levers",
+        "question": "Classify the lever: Baseball bat.",
+        "type": "option",
+        "choices": {
+          "A": "First Class",
+          "B": "Second Class",
+          "C": "Third Class"
+        },
+        "keyPoints": [
+          {
+            "title": "Baseball Bat as First-Class Lever",
+            "keywords": ["baseball bat", "first-class lever", "fulcrum", "load", "effort"],
+            "explanation": "A baseball bat acts as a first-class lever where the fulcrum is between the load and the effort (like the way your hands are the pivot point and the end of the bat hits the ball)."
+          }
+        ],
+        "answer": "A",
+        "page": 26,
+        "most_voted": 0
+      },
+      {
+        "source": "",
+        "topic": "Classifying Levers",
+        "question": "Classify the lever: Can opener.",
+        "type": "option",
+        "choices": {
+          "A": "First Class",
+          "B": "Second Class",
+          "C": "Third Class"
+        },
+        "keyPoints": [
+          {
+            "title": "Can Opener as Second-Class Lever",
+            "keywords": ["can opener", "second-class lever", "fulcrum", "load", "effort"],
+            "explanation": "A can opener acts as a second-class lever where the load is between the fulcrum and the effort (similar to how you apply force on one end to lift the lid off the can)."
+          }
+        ],
+        "answer": "B",
+        "page": 27,
+        "most_voted": 0
+      },
+      {
+        "source": "",
+        "topic": "Classifying Levers",
+        "question": "Classify the lever: Broom.",
+        "type": "option",
+        "choices": {
+          "A": "First Class",
+          "B": "Second Class",
+          "C": "Third Class"
+        },
+        "keyPoints": [
+          {
+            "title": "Broom as Third-Class Lever",
+            "keywords": ["broom", "third-class lever", "fulcrum", "load", "effort"],
+            "explanation": "A broom is typically a third-class lever where the effort is applied between the fulcrum and the load (your hand applies effort in the middle of the broom's handle to sweep the bristles across the floor)."
+          }
+        ],
+        "answer": "C",
+        "page": 28,
+        "most_voted": 0
+      }
+    ]
+}

@@ -1,0 +1,204 @@
+{
+    "exam_questions": [
+            {
+            "source": "",
+            "topic": "React useState and Event Handling",
+            "question": "What is the output of the below code\n<codeblock>import { useState } from 'react';\n\nexport default function Counter() {\n  const [counter, setCounter] = useState(5);\n\n  return (\n    <>\n      <span>{counter}</span>\n      <button onClick={() => {\n        setCounter(counter => counter + 5);\n        setCounter(counter => counter + 5);\n        alert(counter);\n        setCounter(counter => counter + 5);\n        setCounter(counter => counter + 5);\n      }}>Increment</button>\n    </>\n  );\n}</codeblock>",
+            "type": "option",
+            "choices": {
+              "A": "Alert with 5, 25",
+              "B": "Alert with 5, 10",
+              "C": "Alert with 15, 25",
+              "D": "Alert with 15, 10"
+            },
+            "keyPoints": [
+              {
+                "title": "useState Asynchronicity",
+                "keywords": ["useState", "alert(counter);", "setCounter(counter => counter + 5)"],
+                "explanation": "The useState hook schedules updates to the state variable 'counter' asynchronously. When 'setCounter' is invoked, it queues an update to 'counter', but 'alert(counter)' displays the value of 'counter' before these updates are applied. Despite the button being clicked and 'setCounter' being called multiple times, the alert will show the initial state of 'counter' as '5', because state updates haven't been processed yet."
+              },
+              {
+                "title": "Batched State Updates",
+                "keywords": ["setCounter(counter => counter + 5)"],
+                "explanation": "React's setState (and by extension, setCounter from useState) batches updates for performance reasons. This means that even if 'setCounter' is called multiple times in the same event loop, the state 'counter' is updated once at the end of the event loop. Thus, 'alert' showing '5' indicates that it is executed before the state updates take effect."
+              },
+              {
+                "title": "Understanding Event Handling",
+                "keywords": ["onClick"],
+                "explanation": "The onClick event handler triggers 'handleClick function', which intends to increment 'counter' by 5 on each click. However, due to JavaScript's synchronous execution of code and React's asynchronous state update mechanism, the displayed alert during the execution shows '5', the value of 'counter' before the state updates."
+              }
+            ],
+            "answer": "A",
+            "page": 0,
+            "most_voted": "A"
+          },
+          {
+            "source": "",
+            "topic": "React useState Hook Behavior",
+            "question": "What is the output of the below code\n<codeblock>import { useState } from 'react';\n\nexport default function Counter() {\n  const [counter, setCounter] = useState(5);\n\n  return (\n    <>\n      <span>{counter}</span>\n      <button onClick={() => {\n        setCounter(counter + 5);\n        setCounter(counter + 5);\n        alert(counter);\n        setCounter(counter + 5);\n        setCounter(counter + 5);\n      }}>Increment</button>\n    </>\n  )}</codeblock>",
+            "type": "option",
+            "choices": {
+              "A": "Alert with 5, 5",
+              "B": "Alert with 15, 25",
+              "C": "Alert with 5, 10",
+              "D": "Error: Cannot update the same state multiple times concurrently"
+            },
+            "keyPoints": [
+              {
+                "title": "useState and Synchronous Execution",
+                "keywords": ["useState", "alert(counter)", "setCounter(counter + 5)"],
+                "explanation": "The useState hook initializes 'counter' with a value of 5. Despite the 'setCounter(counter + 5)' calls intended to increment this value, the 'alert(counter)' displays '5'. This is because state updates are scheduled for the next render cycle and 'alert' shows the current state value, which has not yet updated synchronously within the same execution cycle."
+              },
+              {
+                "title": "State Update Batching",
+                "keywords": ["setCounter(counter + 5)", "useState"],
+                "explanation": "React batches state updates that occur within the same execution cycle. Here, multiple 'setCounter(counter + 5)' calls are made, but due to batching, the state 'counter' is not immediately updated. The 'alert(counter)' reflects the state before these updates."
+              },
+              {
+                "title": "Alert Display in React",
+                "keywords": ["alert(counter)", "setCounter(counter + 5)"],
+                "explanation": "The 'alert' function is called after 'setCounter(counter + 5)' statements, intending to show the updated state. However, the alert displays '5', indicating the state's value at the time of the function call, not after the state updates."
+              },
+              {
+                "title": "Understanding Functional Updates",
+                "keywords": ["useState", "functional updates", "setCounter(counter + 5)"],
+                "explanation": "Functional updates in React allow the current state to be updated based on the previous state. The 'setCounter(counter + 5)' is an attempt at functional updating, but 'alert(counter)' executed before these updates take effect, showing the initial state."
+              },
+              {
+                "title": "React's Asynchronous State Updates",
+                "keywords": ["useState", "asynchronous", "setCounter(counter + 5)"],
+                "explanation": "React's state updates are asynchronous to optimize performance and minimize unnecessary renders. Even though 'setCounter(counter + 5)' is called, these updates do not reflect immediately, as shown by 'alert(counter)' displaying '5', the pre-update state."
+              }
+            ],
+            "answer": "A",
+            "page": 0,
+            "most_voted": "A"
+          },          
+          {
+            "source": "",
+            "topic": "React useRef Hook Usage",
+            "question": "What is the output of span after one click?\n<codeblock>import { useRef } from 'react';\n\nexport default function Counter() {\n  let countRef = useRef(0);\n\n  function handleIncrement() {\n    countRef.current = countRef.current + 1;\n  }\n\n  return \n  <>\n    <span>Count: {countRef.current}</span>\n    <button onClick={handleIncrement}>\n      Click me\n    </button>\n  </>\n}</codeblock>",
+            "type": "option",
+            "choices": {
+              "A": "Cannot read current property of undefined",
+              "B": "Count: 1",
+              "C": "null",
+              "D": "Count: 0"
+            },
+            "keyPoints": [
+              {
+                "title": "useRef and Component Rerender",
+                "keywords": ["useRef", "countRef.current", "handleIncrement", "onClick"],
+                "explanation": "The `useRef` hook creates a persistent `countRef` object that does not cause the component to rerender when its `current` property is updated. When `handleIncrement` is invoked by clicking the button, `countRef.current` is incremented, but the displayed count in the span does not update immediately due to the lack of a component rerender."
+              },
+              {
+                "title": "Initial useRef Value",
+                "keywords": ["useRef(0)", "countRef.current"],
+                "explanation": "`countRef` is initialized with `useRef(0)`, setting its `current` value to 0. The initial render of the component shows 'Count: 0' because `countRef.current` reflects this initial value."
+              },
+              {
+                "title": "Effect of Click on useRef Value",
+                "keywords": ["handleIncrement", "countRef.current += 1", "onClick"],
+                "explanation": "After the button is clicked once, `handleIncrement` function updates `countRef.current` by adding 1. However, this update does not trigger a rerender to reflect the new `countRef.current` value in the span immediately."
+              },
+              {
+                "title": "React Event Handling",
+                "keywords": ["onClick", "handleIncrement"],
+                "explanation": "The `onClick` event handler is set to `handleIncrement`, which correctly updates the `countRef.current` value on each click. This directly manipulates the `countRef` but does not lead to immediate visual feedback in the UI without additional actions to force a rerender."
+              },
+              {
+                "title": "Understanding useRef Hook",
+                "keywords": ["useRef", "ref object", "current property"],
+                "explanation": "The `useRef` hook is used for accessing and interacting with a DOM element directly or keeping a mutable reference to a value across renders. The `current` property of the `ref` object is where the mutable value is stored and accessed."
+              }
+            ],
+            "answer": "D",
+            "page": 0,
+            "most_voted": "D"
+          },          
+          {
+            "source": "",
+            "topic": "Handling Refs in React",
+            "question": "What is the outcome of the below code after button click?\n<codeblock>import { useRef } from 'react';\n\nfunction MyCustomInput(props) {\n  return <input {...props} />;\n}\n\nexport default function MyCustomForm() {\n  const inputRef = useRef(null);\n\n  function handleInputFocus() {\n    inputRef.current.focus();\n  }\n\n  return (\n    <>\n      <MyCustomInput ref={inputRef} />\n      <button onClick={handleInputFocus}>\n        Click Me\n      </button>\n    </>\n  );\n}</codeblock>",
+            "type": "option",
+            "choices": {
+              "A": "Input gets the focus",
+              "B": "Warning: Function components cannot be given refs.",
+              "C": "Cannot read current property of undefined",
+              "D": "Warning: Missing ref on element"
+            },
+            "keyPoints": [
+              {
+                "title": "Ref Usage in Functional Components",
+                "keywords": ["useRef", "MyCustomInput", "inputRef", "handleInputFocus"],
+                "explanation": "In this code, `useRef` is used to create a ref (`inputRef`) which is intended to be attached to the `MyCustomInput` component. The `handleInputFocus` function aims to focus the input element when the button is clicked. However, since `MyCustomInput` is a functional component that does not explicitly forward the ref to its child DOM element, a warning is generated indicating that function components cannot be given refs unless they use `forwardRef`."
+              },
+              {
+                "title": "Focus Event Handling",
+                "keywords": ["onClick", "handleInputFocus", "inputRef.current.focus"],
+                "explanation": "The button's `onClick` event is configured to call `handleInputFocus`, which attempts to set focus on the input element via `inputRef.current.focus()`. This demonstrates a typical use case for refs in handling focus."
+              },
+              {
+                "title": "Understanding useRef Hook",
+                "keywords": ["useRef", "ref", "null", "inputRef"],
+                "explanation": "The `useRef` hook is utilized to create a reference object (`inputRef`) that can hold a mutable value across re-renders without triggering re-renders itself. The initial value is set to `null`, and it's supposed to be updated to point to the input element in the DOM."
+              },
+              {
+                "title": "Ref Forwarding in React",
+                "keywords": ["ref forwarding", "MyCustomInput", "inputRef"],
+                "explanation": "Ref forwarding is a technique in React that allows function components to pass a `ref` they receive to another component or DOM element. This code lacks ref forwarding, leading to the outcome where the ref cannot be attached directly to the DOM element generated by `MyCustomInput`."
+              },
+              {
+                "title": "Common Ref Warnings",
+                "keywords": ["Warning: Function components cannot be given refs.", "ref", "MyCustomInput"],
+                "explanation": "React generates a warning ('Function components cannot be given refs.') when an attempt is made to attach a ref to a function component without using `forwardRef`. This serves as a safeguard to ensure refs are used correctly within the component tree."
+              }
+            ],
+            "answer": "B",
+            "page": 0,
+            "most_voted": "D"
+          },          
+          {
+            "source": "",
+            "topic": "React useRef and Event Handling",
+            "question": "What is the outcome of the number of clicks after 3 button clicks?\n\n<codeblock>import { useRef } from 'react';\n\nexport default function Counter() {\n  let ref = useRef(0);\n\n  function handleClick() {\n    ref.current = ref.current + 1;\n  }\n\n  return (\n    <>\n\t\t<div>Clicked + {ref.current} + times</div>\n\t\t<button onClick={handleClick}>\n\t\t\tClick me!\n\t\t</button>\n    </>\n  );\n}</codeblock>",
+            "type": "option",
+            "choices": {
+              "A": "3 times",
+              "B": "4 times",
+              "C": "2 times",
+              "D": "0 times"
+            },
+            "keyPoints": [
+              {
+                "title": "useRef Hook Behavior",
+                "keywords": ["useRef", "ref.current", "function handleClick()"],
+                "explanation": "The `useRef` hook is used to keep a mutable ref object across re-renders without causing additional renders. `ref.current` is updated within `handleClick`, but since `useRef` does not trigger re-renders, the visible count in the `<div>` does not update in response to state changes triggered by button clicks."
+              },
+              {
+                "title": "Incrementing useRef Value",
+                "keywords": ["handleClick", "ref.current = ref.current + 1", "button onClick"],
+                "explanation": "Each click on the button triggers `handleClick`, which increments `ref.current` by 1. However, the component does not automatically re-render to reflect the updated value of `ref.current`, leaving the displayed number unchanged."
+              },
+              {
+                "title": "Displaying Ref Values",
+                "keywords": ["<div>Clicked + {ref.current} + times</div>"],
+                "explanation": "The displayed text within the `<div>` element shows the value of `ref.current` at the time of the component's render. Without a mechanism to trigger re-renders when `ref.current` is updated, the displayed count remains at its initial value, not reflecting the actual number of clicks."
+              },
+              {
+                "title": "Event Handling with useRef",
+                "keywords": ["onClick", "handleClick", "ref.current"],
+                "explanation": "The `onClick` event on the button is successfully updating `ref.current` through `handleClick`. This demonstrates the direct manipulation of the ref's current property upon user interaction."
+              },
+              {
+                "title": "React Component Updates",
+                "keywords": ["React", "re-renders", "useRef"],
+                "explanation": "React components re-render in response to state or prop changes. However, updates to `ref.current` via `useRef` fall outside this reactive system, meaning the component's output doesn't automatically update in response to these changes."
+              }
+            ],
+            "answer": "D",
+            "page": 0,
+            "most_voted": "D"
+          }
+    ]
+}
