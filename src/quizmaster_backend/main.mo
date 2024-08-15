@@ -11,7 +11,7 @@ actor {
   };
 
   // Function to save user credentials
-  public func saveCredentials(username: Text, password: Text) : async Bool {
+  public query func saveCredentials(username: Text, password: Text) : async Bool {
     return true;
   };
 
