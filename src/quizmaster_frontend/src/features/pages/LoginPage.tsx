@@ -89,13 +89,13 @@ const LoginPage: React.FC<LoginPageProps> = ({ onLogin }) => {
         {error && <p style={{ color: 'red' }}>{error}</p>}
         <Input 
           type="text" 
-          placeholder="Username" 
+          placeholder="Username:admin" 
           value={username}
           onChange={(e) => setUsername(e.target.value)}
         />
         <Input 
           type="password" 
-          placeholder="Password" 
+          placeholder="Password:admin" 
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
